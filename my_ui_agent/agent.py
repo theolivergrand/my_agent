@@ -1,10 +1,273 @@
 import os
+import json
+import datetime
+from pathlib import Path
 from google.cloud import vision
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 from collections import Counter
 import colorsys
 from github_researcher import GitHubUIResearcher
+
+# --- Mobile Gaming UI Taxonomy ---
+MOBILE_GAMING_UI_TAXONOMY = {
+    'interactive': [
+        'button', 'action_button', 'menu_button', 'close_button', 'back_button',
+        'joystick', 'virtual_joystick', 'directional_pad', 'touch_zone',
+        'slider', 'toggle', 'checkbox', 'radio_button', 'dropdown', 
+        'input_field', 'search_box', 'skill_button', 'attack_button'
+    ],
+    
+    'navigational': [
+        'menu', 'main_menu', 'pause_menu', 'settings_menu', 'inventory_menu',
+        'tab', 'menu_tab', 'navigation_bar', 'breadcrumb', 'pagination', 
+        'scroll_bar', 'home_button', 'minimap', 'compass'
+    ],
+    
+    'informational': [
+        'text_label', 'title_text', 'description_text', 'instruction_text',
+        'icon', 'weapon_icon', 'item_icon', 'skill_icon', 'currency_icon',
+        'image', 'logo', 'avatar', 'progress_indicator', 'health_bar', 
+        'mana_bar', 'experience_bar', 'status_bar', 'notification', 
+        'score_counter', 'coin_counter', 'level_indicator'
+    ],
+    
+    'structural': [
+        'panel', 'background_panel', 'card', 'list_item', 'grid_item', 
+        'modal', 'popup', 'overlay', 'container', 'divider', 'frame',
+        'border_frame', 'inventory_slot', 'chat_window'
+    ],
+    
+    'gaming_specific': [
+        'hud_element', 'minimap', 'health_bar', 'mana_bar', 'stamina_bar',
+        'inventory_slot', 'skill_button', 'achievement_badge', 
+        'leaderboard_entry', 'chat_bubble', 'quest_marker', 
+        'upgrade_button', 'shop_item', 'daily_deal', 'special_offer'
+    ]
+}
+
+# Создаем плоский список всех тегов для удобства
+ALL_UI_TAGS = []
+for category, tags in MOBILE_GAMING_UI_TAXONOMY.items():
+    ALL_UI_TAGS.extend(tags)
+
+# --- UI Analysis Agent Class ---
+class UIAnalysisAgent:
+    """Основной класс для анализа UI элементов"""
+    
+    def __init__(self):
+        """Инициализация агента"""
+        self.client = None
+        self._init_vision_client()
+        
+    def _init_vision_client(self):
+        """Инициализация Vision API клиента"""
+        try:
+            self.client = vision.ImageAnnotatorClient()
+        except Exception as e:
+            print(f"Ошибка при инициализации Vision API: {e}")
+            self.client = None
+    
+    def analyze_image(self, image_path):
+        """Анализирует изображение и возвращает результаты"""
+        if not self.client:
+            raise Exception("Vision API клиент не инициализирован")
+        
+        try:
+            # Анализ через Vision API
+            objects, texts = self._analyze_with_vision_api(image_path)
+            
+            # Анализ UI элементов
+            ui_elements = self._analyze_ui_elements(image_path)
+            
+            # Анализ цветов
+            colors = self._analyze_colors(image_path)
+            
+            # Формируем результат
+            result = {
+                'objects': self._format_objects(objects),
+                'texts': self._format_texts(texts),
+                'ui_elements': ui_elements,
+                'colors': colors,
+                'statistics': {
+                    'objects_count': len(objects) if objects else 0,
+                    'texts_count': len(texts) - 1 if texts else 0,
+                    'ui_elements_count': len(ui_elements)
+                }
+            }
+            
+            return result
+            
+        except Exception as e:
+            raise Exception(f"Ошибка при анализе изображения: {str(e)}")
+    
+    def _analyze_with_vision_api(self, image_path):
+        """Анализ через Google Vision API"""
+        with open(image_path, "rb") as image_file:
+            content = image_file.read()
+            
+        gcp_image = vision.Image(content=content)
+        
+        features = [
+            {"type_": vision.Feature.Type.OBJECT_LOCALIZATION},
+            {"type_": vision.Feature.Type.TEXT_DETECTION},
+        ]
+        
+        response = self.client.annotate_image({"image": gcp_image, "features": features})
+        
+        if response.error.message:
+            raise Exception(f"Vision API ошибка: {response.error.message}")
+        
+        return response.localized_object_annotations, response.text_annotations
+    
+    def _analyze_ui_elements(self, image_path):
+        """Анализ UI элементов"""
+        # Используем существующие функции анализа
+        try:
+            colors = analyze_colors_simple(image_path)
+            rectangular_regions = find_rectangular_regions(image_path)
+            
+            ui_elements = []
+            for i, region in enumerate(rectangular_regions):
+                ui_element = {
+                    'id': f'ui_{i}',
+                    'type': 'rectangular_region',
+                    'bounding_poly': {
+                        'vertices': [
+                            {'x': region[0], 'y': region[1]},
+                            {'x': region[2], 'y': region[1]},
+                            {'x': region[2], 'y': region[3]},
+                            {'x': region[0], 'y': region[3]}
+                        ]
+                    },
+                    'confidence': 0.7,
+                    'predicted_type': self._classify_ui_element(region)
+                }
+                ui_elements.append(ui_element)
+            
+            return ui_elements
+            
+        except Exception as e:
+            print(f"Ошибка анализа UI элементов: {e}")
+            return []
+    
+    def _analyze_colors(self, image_path):
+        """Анализ цветовой схемы"""
+        try:
+            return analyze_colors_simple(image_path)
+        except Exception as e:
+            print(f"Ошибка анализа цветов: {e}")
+            return []
+    
+    def _classify_ui_element(self, region):
+        """Классификация UI элемента на основе размера и формы"""
+        width = region[2] - region[0]
+        height = region[3] - region[1]
+        aspect_ratio = width / height if height > 0 else 1
+        
+        # Простая классификация на основе размера
+        if aspect_ratio > 3:
+            return 'navigation_bar'
+        elif aspect_ratio < 0.5:
+            return 'button'
+        elif width > 200 and height > 100:
+            return 'panel'
+        else:
+            return 'unknown'
+    
+    def _format_objects(self, objects):
+        """Форматирование объектов Vision API"""
+        if not objects:
+            return []
+        
+        formatted = []
+        for obj in objects:
+            formatted.append({
+                'name': obj.name,
+                'confidence': obj.score,
+                'bounding_poly': {
+                    'vertices': [
+                        {'x': vertex.x, 'y': vertex.y} 
+                        for vertex in obj.bounding_poly.normalized_vertices
+                    ]
+                }
+            })
+        return formatted
+    
+    def _format_texts(self, texts):
+        """Форматирование текстов Vision API"""
+        if not texts:
+            return []
+        
+        formatted = []
+        for text in texts:
+            formatted.append({
+                'description': text.description,
+                'bounding_poly': {
+                    'vertices': [
+                        {'x': vertex.x, 'y': vertex.y} 
+                        for vertex in text.bounding_poly.vertices
+                    ]
+                }
+            })
+        return formatted
+
+# --- Dataset Building Classes ---
+class UIElementAnnotation:
+    """Класс для хранения аннотации UI элемента"""
+    def __init__(self, bbox, predicted_type="unknown", actual_type=None, 
+                 confidence=0.0, text="", context=""):
+        self.bbox = bbox  # [x1, y1, x2, y2]
+        self.predicted_type = predicted_type
+        self.actual_type = actual_type
+        self.confidence = confidence
+        self.text = text
+        self.context = context
+        self.user_verified = actual_type is not None
+    
+    def to_dict(self):
+        return {
+            'bbox': self.bbox,
+            'predicted_type': self.predicted_type,
+            'actual_type': self.actual_type,
+            'confidence': self.confidence,
+            'text': self.text,
+            'context': self.context,
+            'user_verified': self.user_verified
+        }
+
+class DatasetBuilder:
+    """Класс для создания датасета для обучения моделей"""
+    def __init__(self, output_dir="training_dataset"):
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(exist_ok=True)
+        self.annotations_file = self.output_dir / "annotations.json"
+        self.annotations = self.load_existing_annotations()
+    
+    def load_existing_annotations(self):
+        """Загружает существующие аннотации"""
+        if self.annotations_file.exists():
+            with open(self.annotations_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return []
+    
+    def save_annotations(self):
+        """Сохраняет аннотации в JSON файл"""
+        with open(self.annotations_file, 'w', encoding='utf-8') as f:
+            json.dump(self.annotations, f, ensure_ascii=False, indent=2)
+    
+    def add_annotation(self, image_path, elements, metadata=None):
+        """Добавляет новую аннотацию в датасет"""
+        annotation = {
+            'id': len(self.annotations),
+            'image_path': str(image_path),
+            'timestamp': datetime.datetime.now().isoformat(),
+            'elements': [elem.to_dict() for elem in elements],
+            'metadata': metadata or {}
+        }
+        self.annotations.append(annotation)
+        self.save_annotations()
+        return annotation['id']
 
 # --- Конфигурация (можно вынести в отдельный файл или переменные окружения) ---
 # Если переменная окружения GOOGLE_APPLICATION_CREDENTIALS не установлена глобально,
@@ -258,6 +521,204 @@ def draw_annotations(image_path, objects, texts, output_path="annotated_output.p
         print(f"Ошибка при создании аннотированного изображения: {e}")
         return None
 
+def classify_ui_element(bbox, text_content="", image_context=None):
+    """Классифицирует UI элемент на основе визуальных признаков и контекста"""
+    
+    # Простая эвристическая классификация на основе размера и содержимого
+    width = bbox[2] - bbox[0]
+    height = bbox[3] - bbox[1]
+    aspect_ratio = width / height if height > 0 else 1
+    area = width * height
+    
+    # Анализ текстового содержимого
+    text_lower = text_content.lower().strip()
+    
+    # Классификация по ключевым словам в тексте
+    if any(word in text_lower for word in ['start', 'play', 'begin', 'continue', 'resume']):
+        return 'action_button'
+    elif any(word in text_lower for word in ['menu', 'options', 'settings', 'config']):
+        return 'menu_button'
+    elif any(word in text_lower for word in ['close', 'exit', 'quit', 'cancel']):
+        return 'close_button'
+    elif any(word in text_lower for word in ['back', 'return', 'previous']):
+        return 'back_button'
+    elif any(word in text_lower for word in ['next', 'continue', 'proceed']):
+        return 'navigation_button'
+    elif any(word in text_lower for word in ['buy', 'purchase', 'shop', 'store']):
+        return 'shop_button'
+    elif any(word in text_lower for word in ['inventory', 'items', 'equipment']):
+        return 'inventory_button'
+    
+    # Классификация по размеру и пропорциям
+    if area > 5000:  # Большие элементы
+        if aspect_ratio > 3:  # Широкие - скорее всего панели или полосы
+            if any(word in text_lower for word in ['health', 'hp', 'life']):
+                return 'health_bar'
+            elif any(word in text_lower for word in ['mana', 'mp', 'magic']):
+                return 'mana_bar'
+            elif any(word in text_lower for word in ['experience', 'exp', 'xp']):
+                return 'experience_bar'
+            else:
+                return 'panel'
+        elif 0.8 < aspect_ratio < 1.2:  # Квадратные - иконки или кнопки
+            return 'icon' if area < 10000 else 'button'
+        else:
+            return 'panel'
+    
+    elif 500 < area < 5000:  # Средние элементы
+        if aspect_ratio > 2:  # Широкие - скорее всего кнопки или поля ввода
+            if text_content and len(text_content) > 2:
+                return 'button'
+            else:
+                return 'input_field'
+        elif 0.5 < aspect_ratio < 2:  # Сбалансированные пропорции
+            return 'button' if text_content else 'icon'
+    
+    else:  # Маленькие элементы
+        if text_content:
+            return 'text_label'
+        else:
+            return 'icon'
+    
+    # По умолчанию
+    return 'ui_element'
+
+def convert_vision_to_ui_elements(vision_objects, vision_texts, image_path=None):
+    """Конвертирует результаты Vision API в UI элементы с классификацией"""
+    ui_elements = []
+    
+    # Получаем размеры изображения
+    img_width, img_height = 1920, 1080  # Значения по умолчанию
+    if image_path:
+        try:
+            with Image.open(image_path) as img:
+                img_width, img_height = img.size
+        except Exception:
+            pass
+    
+    # Обрабатываем объекты Vision API
+    for obj in vision_objects:
+        vertices = obj.bounding_poly.normalized_vertices
+        bbox = [
+            int(vertices[0].x * img_width), 
+            int(vertices[0].y * img_height),
+            int(vertices[2].x * img_width), 
+            int(vertices[2].y * img_height)
+        ]
+        
+        predicted_type = classify_ui_element(bbox, obj.name)
+        
+        element = UIElementAnnotation(
+            bbox=bbox,
+            predicted_type=predicted_type,
+            confidence=obj.score,
+            text=obj.name,
+            context="vision_api_object"
+        )
+        ui_elements.append(element)
+    
+    # Обрабатываем текстовые блоки
+    if vision_texts and len(vision_texts) > 1:
+        for text_block in vision_texts[1:]:  # Пропускаем первый элемент (весь текст)
+            vertices = text_block.bounding_poly.vertices
+            bbox = [
+                min(v.x for v in vertices),
+                min(v.y for v in vertices),
+                max(v.x for v in vertices),
+                max(v.y for v in vertices)
+            ]
+            
+            predicted_type = classify_ui_element(bbox, text_block.description)
+            
+            element = UIElementAnnotation(
+                bbox=bbox,
+                predicted_type=predicted_type,
+                confidence=0.8,  # Фиксированная уверенность для текста
+                text=text_block.description,
+                context="vision_api_text"
+            )
+            ui_elements.append(element)
+    
+    return ui_elements
+
+def get_enhanced_user_feedback(ui_elements, annotated_image_path):
+    """Расширенная система получения обратной связи для создания датасета"""
+    print("\n" + "="*60)
+    print("🎯 СОЗДАНИЕ ОБУЧАЮЩЕГО ДАТАСЕТА")
+    print("="*60)
+    print(f"📷 Аннотированное изображение: {annotated_image_path}")
+    print("\n📋 Найдено элементов для классификации:")
+    
+    # Показываем найденные элементы
+    for i, element in enumerate(ui_elements, 1):
+        print(f"   {i}. {element.predicted_type} (текст: '{element.text[:30]}{'...' if len(element.text) > 30 else ''}')")
+    
+    print("\n" + "-"*60)
+    print("Помогите улучшить распознавание, указав правильные типы элементов:")
+    print("Доступные категории:")
+    
+    # Показываем доступные категории
+    for category, tags in MOBILE_GAMING_UI_TAXONOMY.items():
+        print(f"\n🏷️  {category.upper()}:")
+        print(f"   {', '.join(tags[:8])}")  # Показываем первые 8 тегов
+        if len(tags) > 8:
+            print(f"   ... и еще {len(tags) - 8} тегов")
+    
+    print("\n" + "-"*60)
+    
+    # Собираем исправления от пользователя
+    corrections = {}
+    skip_all = False
+    
+    for i, element in enumerate(ui_elements):
+        if skip_all:
+            break
+            
+        print(f"\n📝 Элемент {i+1}/{len(ui_elements)}:")
+        print(f"   Предсказание: {element.predicted_type}")
+        print(f"   Текст: '{element.text}'")
+        print(f"   Координаты: {element.bbox}")
+        
+        choice = input("   Введите правильный тип (или 'skip'/'all' для пропуска): ").strip().lower()
+        
+        if choice == 'skip':
+            continue
+        elif choice == 'all':
+            skip_all = True
+            break
+        elif choice in ALL_UI_TAGS:
+            corrections[i] = choice
+            element.actual_type = choice
+            print(f"   ✅ Исправлено на: {choice}")
+        elif choice:
+            # Поиск похожих тегов
+            similar_tags = [tag for tag in ALL_UI_TAGS if choice in tag or tag in choice]
+            if similar_tags:
+                print(f"   🔍 Похожие теги: {', '.join(similar_tags[:5])}")
+                confirm = input(f"   Возможно, вы имели в виду '{similar_tags[0]}'? (y/n): ").strip().lower()
+                if confirm == 'y':
+                    corrections[i] = similar_tags[0]
+                    element.actual_type = similar_tags[0]
+                    print(f"   ✅ Установлено: {similar_tags[0]}")
+      # Общая оценка
+    print("\n" + "-"*60)
+    overall_quality = input("Общая оценка качества распознавания (1-5): ").strip()
+    additional_comments = input("Дополнительные комментарии: ").strip()
+    
+    feedback = {
+        "overall_quality": overall_quality,
+        "corrections_count": len(corrections),
+        "total_elements": len(ui_elements),
+        "accuracy": (len(ui_elements) - len(corrections)) / len(ui_elements) if ui_elements else 0,
+        "comments": additional_comments,
+        "corrections": corrections
+    }
+    
+    print(f"\n✅ Спасибо! Исправлено {len(corrections)} из {len(ui_elements)} элементов")
+    print("="*60)
+    
+    return feedback
+
 def get_user_feedback(annotated_image_path, objects, texts):
     """Запрашивает у пользователя обратную связь."""
     print("\n" + "="*50)
@@ -272,8 +733,8 @@ def get_user_feedback(annotated_image_path, objects, texts):
     print(f"   • Текстовых блоков: {len(texts)-1 if texts and len(texts) > 1 else 0}")
     print("-"*50)
 
-    all_correct = input("Качество анализа (отлично/хорошо/удовлетворительно/плохо): ").strip().lower()
-    
+    all_correct = input("Качество анализа (отлично/хорошо/удовлетворительно/плохо): ")
+
     feedback_data = {
         "overall_correctness": all_correct,
         "comments": "",
@@ -289,7 +750,6 @@ def get_user_feedback(annotated_image_path, objects, texts):
             feedback_data["comments"] += f" Пропущено: {missing_elements}"
 
     print("\n✅ Спасибо за обратную связь! Она поможет улучшить алгоритм.")
-    print("="*50)
     return feedback_data
 
 def save_learning_data(original_image_path, vision_objects, vision_texts, user_feedback, data_folder="learning_data"):
@@ -538,16 +998,34 @@ def main():
     print("\n[1] Загрузка изображения...")
     original_image_path = get_image_from_user()
     if not original_image_path:
-        return
-
-    # 2. Анализ с помощью Google Vision API
+        return    # 2. Анализ с помощью Google Vision API
     print("\n[2] Анализ с помощью Google Vision API...")
     objects, texts = analyze_image_with_vision_ai(original_image_path)
     if objects is None and texts is None:
         print("\n❌ ОШИБКА: Не удалось получить данные от Vision API")
         return
-      # 3. Дополнительный анализ UI элементов
-    print("\n[3] Дополнительный анализ UI элементов...")
+      # 3. Преобразование в UI элементы с классификацией
+    print("\n[3] Классификация UI элементов...")
+    ui_elements = convert_vision_to_ui_elements(objects or [], texts or [], original_image_path)
+    
+    # Показываем результаты классификации
+    if ui_elements:
+        print(f"🎯 Классифицировано элементов: {len(ui_elements)}")
+        
+        # Группируем по типам
+        type_counts = {}
+        for element in ui_elements:
+            element_type = element.predicted_type
+            type_counts[element_type] = type_counts.get(element_type, 0) + 1
+        
+        print("📋 Найденные типы элементов:")
+        for element_type, count in sorted(type_counts.items()):
+            print(f"   • {element_type}: {count}")
+    else:
+        print("⚠️  Элементы UI не найдены")
+      
+    # 4. Дополнительный анализ UI элементов (старый метод для сравнения)
+    print("\n[4] Дополнительный компьютерный анализ...")
     ui_analysis = analyze_ui_elements(original_image_path)
     
     # Выводим результаты анализа UI
@@ -580,12 +1058,11 @@ def main():
             print(f"\n🎨 ДОМИНИРУЮЩИЕ ЦВЕТА: {len(colors['dominant_colors'])} найдено")
             
         print("="*50)
+      # Проверяем результаты анализа
+    has_ui_elements = len(ui_elements) > 0
+    has_additional_ui = ui_analysis and ui_analysis.get("ui_elements") and len(ui_analysis["ui_elements"]) > 0
     
-    # Проверяем результаты анализа
-    has_vision_results = (objects and len(objects) > 0) or (texts and len(texts) > 1)
-    has_ui_results = ui_analysis and ui_analysis.get("ui_elements") and len(ui_analysis["ui_elements"]) > 0
-    
-    if not has_vision_results and not has_ui_results:
+    if not has_ui_elements and not has_additional_ui:
         print("\n" + "="*50)
         print("⚠️  РЕЗУЛЬТАТ: Элементы UI не найдены")
         print("="*50)
@@ -603,11 +1080,11 @@ def main():
             "comments": "Агент не смог найти UI элементы",
             "expected_elements": user_expects_elements == 'да'
         }
-        save_enhanced_learning_data(original_image_path, [], [], ui_analysis, feedback_for_empty)
+        save_enhanced_learning_data(original_image_path, ui_elements, ui_analysis, feedback_for_empty)
         return
 
-    # 4. Создание аннотированного изображения
-    print("\n[4] Создание аннотированного изображения...")
+    # 5. Создание аннотированного изображения
+    print("\n[5] Создание аннотированного изображения...")
     annotated_image_file = draw_annotations(original_image_path, 
         objects or [], 
         texts or [], 
@@ -619,23 +1096,25 @@ def main():
         print("❌ ОШИБКА: Не удалось создать аннотированное изображение")
         return
 
-    # 5. Получение обратной связи
-    print("\n[5] Получение обратной связи от пользователя...")
-    user_feedback = get_user_feedback(
-        annotated_image_file, 
-        objects or [], 
-        texts or []
-    )
-
-    # 6. Сохранение данных для обучения  
-    print("\n[6] Сохранение результатов...")
-    save_learning_data(original_image_path, objects or [], texts or [], user_feedback)
+    # 6. Получение расширенной обратной связи для создания датасета
+    print("\n[6] Создание обучающего датасета...")
+    
+    # Выбор между простой и расширенной обратной связью
+    feedback_mode = input("Режим обратной связи (простой/датасет): ").strip().lower()
+    
+    if feedback_mode == 'датасет':
+        user_feedback = get_enhanced_user_feedback(ui_elements, annotated_image_file)
+        save_enhanced_learning_data(original_image_path, ui_elements, ui_analysis, user_feedback)
+    else:
+        user_feedback = get_user_feedback(annotated_image_file, objects or [], texts or [])
+        save_learning_data(original_image_path, objects or [], texts or [], user_feedback)
 
     print("\n" + "="*60)
     print("✅ АНАЛИЗ ЗАВЕРШЕН УСПЕШНО!")
     print("="*60)
     print("Результаты:")
     print(f"• Аннотированное изображение: {annotated_image_file}")
+    print(f"• Классифицировано элементов: {len(ui_elements)}")
     print("• Данные сохранены для дальнейшего анализа")
     print("• Обратная связь учтена для улучшения алгоритмов")
     print("="*60)
@@ -822,96 +1301,113 @@ def get_enhanced_user_feedback(annotated_image_path, vision_objects, vision_text
     print("Спасибо за подробную обратную связь!")
     return feedback_data
 
-def save_enhanced_learning_data(original_image_path, vision_objects, vision_texts, ui_analysis, user_feedback, data_folder="enhanced_learning_data"):
-    """Сохраняет расширенные данные для обучения включая UI анализ."""
-    if not os.path.exists(data_folder):
-        os.makedirs(data_folder)
+def save_enhanced_learning_data(original_image_path, ui_elements, ui_analysis, user_feedback):
+    """Сохраняет расширенные данные для создания датасета обучения"""
     
-    # Создаем уникальное имя для набора данных
-    import time
-    timestamp = time.strftime("%Y%m%d-%H%M%S")
-    entry_folder = os.path.join(data_folder, f"ui_analysis_{timestamp}")
-    os.makedirs(entry_folder)
-
-    # Копируем оригинальное изображение
-    from shutil import copy
-    base_image_name = os.path.basename(original_image_path)
-    copied_image_path = os.path.join(entry_folder, base_image_name)
-    copy(original_image_path, copied_image_path)
-
-    # Сохраняем комплексные результаты анализа
-    import json
-    data_to_save = {
-        "metadata": {
-            "timestamp": timestamp,
-            "original_image_path": base_image_name,
-            "analysis_version": "enhanced_v1.0"
-        },
-        "vision_api_results": {
-            "objects": [
-                {
-                    "name": o.name, 
-                    "score": o.score, 
-                    "vertices": [(v.x, v.y) for v in o.bounding_poly.normalized_vertices]
-                } for o in vision_objects
-            ],
-            "texts": [
-                {
-                    "description": t.description, 
-                    "vertices": [(v.x, v.y) for v in t.bounding_poly.vertices]
-                } for t in (vision_texts[1:] if vision_texts else [])
-            ]
-        },
-        "ui_analysis": ui_analysis,
-        "user_feedback": user_feedback
+    # Инициализируем dataset builder
+    dataset_builder = DatasetBuilder()
+    
+    # Создаем метаданные
+    metadata = {
+        "image_path": original_image_path,
+        "timestamp": datetime.datetime.now().isoformat(),
+        "image_type": "mobile_gaming_ui",
+        "analysis_version": "2.0_with_taxonomy",
+        "user_feedback": user_feedback,
+        "ui_analysis": ui_analysis
     }
     
-    # Сохраняем в JSON с красивым форматированием
-    with open(os.path.join(entry_folder, "enhanced_analysis.json"), "w", encoding="utf-8") as f:
-        json.dump(data_to_save, f, indent=4, ensure_ascii=False)
+    # Добавляем аннотацию в датасет
+    annotation_id = dataset_builder.add_annotation(
+        original_image_path, 
+        ui_elements, 
+        metadata
+    )
     
-    # Создаем краткий отчет в текстовом формате
-    report_path = os.path.join(entry_folder, "analysis_report.txt")
-    with open(report_path, "w", encoding="utf-8") as f:
-        f.write(f"=== ОТЧЕТ ПО АНАЛИЗУ UI ЭЛЕМЕНТОВ ===\n")
-        f.write(f"Дата и время: {timestamp}\n")
-        f.write(f"Изображение: {base_image_name}\n\n")
-        
-        f.write(f"РЕЗУЛЬТАТЫ VISION API:\n")
-        f.write(f"  - Объектов найдено: {len(vision_objects)}\n")
-        f.write(f"  - Текстовых блоков: {len(vision_texts) - 1 if vision_texts else 0}\n\n")
-        
-        if ui_analysis:
-            f.write(f"РЕЗУЛЬТАТЫ UI АНАЛИЗА:\n")
-            f.write(f"  - UI элементов найдено: {len(ui_analysis.get('ui_elements', []))}\n")
-            
-            if ui_analysis.get("color_analysis"):
-                color_info = ui_analysis["color_analysis"]
-                f.write(f"  - Цветовая схема: {color_info.get('color_scheme_type', 'неопределена')}\n")
-                if "dominant_colors" in color_info:
-                    f.write(f"  - Доминирующие цвета:\n")
-                    for i, color_data in enumerate(color_info["dominant_colors"][:3]):
-                        f.write(f"    {i+1}. {color_data['hex']} ({color_data['percentage']:.1f}%)\n")
-            
-            if ui_analysis.get("ui_elements"):
-                element_types = {}
-                for element in ui_analysis["ui_elements"]:
-                    elem_type = element["type"]
-                    element_types[elem_type] = element_types.get(elem_type, 0) + 1
-                
-                f.write(f"  - Типы элементов:\n")
-                for elem_type, count in element_types.items():
-                    f.write(f"    {elem_type}: {count}\n")
-        
-        f.write(f"\nОБРАТНАЯ СВЯЗЬ ПОЛЬЗОВАТЕЛЯ:\n")
-        f.write(f"  - Общая оценка: {user_feedback.get('overall_correctness', 'не указана')}\n")
-        if user_feedback.get("suggestions"):
-            f.write(f"  - Предложения: {user_feedback['suggestions']}\n")
-        if user_feedback.get("missing_elements"):
-            f.write(f"  - Пропущенные элементы: {user_feedback['missing_elements']}\n")
+    # Создаем традиционную папку для backward compatibility
+    import time
+    timestamp = time.strftime("%Y%m%d-%H%M%S")
+    entry_folder = Path("learning_data") / f"enhanced_entry_{timestamp}"
+    entry_folder.mkdir(parents=True, exist_ok=True)
     
-    print(f"📊 Расширенные данные анализа сохранены в: {entry_folder}")
-    print(f"📋 Краткий отчет: {report_path}")
+    # Копируем изображение
+    from shutil import copy
+    base_image_name = Path(original_image_path).name
+    copied_image_path = entry_folder / base_image_name
+    copy(original_image_path, copied_image_path)
+    
+    # Сохраняем детальные данные в JSON
+    detailed_data = {
+        "annotation_id": annotation_id,
+        "original_image": base_image_name,
+        "ui_elements": [elem.to_dict() for elem in ui_elements],
+        "taxonomy_used": MOBILE_GAMING_UI_TAXONOMY,
+        "user_feedback": user_feedback,
+        "additional_analysis": ui_analysis,
+        "statistics": {
+            "total_elements": len(ui_elements),
+            "verified_elements": len([e for e in ui_elements if e.user_verified]),
+            "unique_types": len(set(e.actual_type or e.predicted_type for e in ui_elements)),
+            "accuracy": user_feedback.get('accuracy', 0)
+        }
+    }
+    
+    with open(entry_folder / "enhanced_data.json", "w", encoding="utf-8") as f:
+        json.dump(detailed_data, f, indent=2, ensure_ascii=False)
+    
+    # Создаем файлы для обучения в разных форматах
+    create_training_formats(ui_elements, original_image_path, entry_folder)
+    
+    print(f"✅ Расширенные данные сохранены:")
+    print(f"   📁 Папка: {entry_folder}")
+    print(f"   🆔 ID аннотации: {annotation_id}")
+    print(f"   📊 Элементов: {len(ui_elements)} (проверено: {len([e for e in ui_elements if e.user_verified])})")
+
+def create_training_formats(ui_elements, original_image_path, output_folder):
+    """Создает файлы в форматах для обучения (YOLO, COCO и т.д.)"""
+    
+    # Загружаем изображение для получения размеров
+    with Image.open(original_image_path) as img:
+        img_width, img_height = img.size
+    
+    # Создаем только проверенные пользователем элементы
+    verified_elements = [e for e in ui_elements if e.user_verified and e.actual_type]
+    
+    if not verified_elements:
+        print("   ⚠️  Нет проверенных элементов для создания форматов обучения")
+        return
+    
+    # 1. Формат YOLO
+    yolo_file = output_folder / "yolo_annotation.txt"
+    with open(yolo_file, 'w') as f:
+        for element in verified_elements:
+            class_id = get_class_id_for_type(element.actual_type)
+            
+            # Нормализуем координаты для YOLO
+            x_center = (element.bbox[0] + element.bbox[2]) / 2 / img_width
+            y_center = (element.bbox[1] + element.bbox[3]) / 2 / img_height
+            width = (element.bbox[2] - element.bbox[0]) / img_width
+            height = (element.bbox[3] - element.bbox[1]) / img_height
+            
+            f.write(f"{class_id} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\n")
+    
+    # 2. Создаем файл с классами
+    classes_file = output_folder / "classes.txt"
+    unique_classes = sorted(set(e.actual_type for e in verified_elements))
+    with open(classes_file, 'w') as f:
+        for class_name in unique_classes:
+            f.write(f"{class_name}\n")
+    
+    print(f"   📄 Создано форматов обучения: YOLO ({len(verified_elements)} элементов)")
+
+def get_class_id_for_type(ui_type):
+    """Возвращает числовой ID для типа UI элемента"""
+    # Создаем словарь соответствия типов и ID
+    if not hasattr(get_class_id_for_type, '_class_mapping'):
+        all_types = sorted(set(ALL_UI_TAGS))
+        get_class_id_for_type._class_mapping = {ui_type: i for i, ui_type in enumerate(all_types)}
+    
+    return get_class_id_for_type._class_mapping.get(ui_type, 0)
 
 def research_ui_algorithms():
     """Исследование алгоритмов UI анализа на GitHub"""

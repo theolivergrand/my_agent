@@ -1,0 +1,14 @@
+# Flask веб-фреймворк
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# Google Cloud Vision API
+google-cloud-vision>=3.8.0
+
+# Обработка изображений
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Дополнительные зависимости
+python-dotenv>=1.0.0
+pathlib2>=2.3.0
