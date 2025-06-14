@@ -6,7 +6,8 @@ from pathlib import Path
 from flask import Flask, render_template, request, jsonify, redirect, url_for, flash, send_from_directory
 from werkzeug.utils import secure_filename
 import uuid
-from agent import UIAnalysisAgent, MOBILE_GAMING_UI_TAXONOMY
+from agent import UIAnalysisAgent
+from constants import MOBILE_GAMING_UI_TAXONOMY
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here'

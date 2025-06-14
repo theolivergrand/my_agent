@@ -75,12 +75,19 @@ result = agent.analyze_screenshot("path/to/screenshot.png")
 
 ## Архитектура
 
-### Модули:
-- `agent.py` - Основной класс агента
-- `github_researcher.py` - Интеграция с GitHub для поиска решений
-- `github_config.py` - Конфигурация GitHub MCP Server
-- `learning_data/` - Накопленные данные для обучения
-- `logs and context data/` - Логи и контекстная информация
+### Основные модули:
+- `agent.py` - Основной класс агента для анализа UI элементов
+- `constants.py` - Таксономия UI элементов и константы
+- `config.py` - Конфигурация Flask приложения и настройки
+- `web_app.py` - Flask веб-интерфейс для создания датасета
+- `github_researcher.py` - Интеграция с GitHub для поиска алгоритмов
+- `github_config.py` - Конфигурация GitHub API
+
+### Веб-интерфейс:
+- `templates/` - HTML шаблоны (Jinja2)  
+- `static/` - CSS стили и статические файлы
+- `uploads/` - Временное хранение загруженных изображений
+- `training_dataset/` - Финальный датасет с аннотациями
 
 ### Планируемая гибридная архитектура:
 ```
@@ -138,15 +145,22 @@ Final Results
 ## Структура проекта
 
 ```
-ui-analysis-agent/
-├── agent.py                 # Основной агент
-├── github_researcher.py     # GitHub интеграция
-├── github_config.py         # Конфигурация
-├── learning_data/           # Обучающие данные
-│   ├── entry_*/             # Результаты анализа
-│   └── github_ui_research_* # Результаты исследований
-├── logs and context data/   # Логи и документация
-└── .gitignore              # Git исключения
+my_ui_agent/
+├── agent.py                 # Основной агент для анализа UI
+├── constants.py             # Константы и таксономия UI элементов  
+├── config.py                # Конфигурация Flask приложения
+├── web_app.py              # Flask веб-приложение
+├── run_web_app.py          # Скрипт для запуска веб-приложения
+├── github_researcher.py    # GitHub интеграция для поиска алгоритмов
+├── github_config.py        # Конфигурация GitHub API
+├── test_setup.py           # Тестовый скрипт для проверки установки
+├── requirements.txt        # Python зависимости
+├── start_web_app.bat       # Batch скрипт для Windows
+├── templates/              # HTML шаблоны для веб-интерфейса
+├── static/                 # CSS и статические файлы
+├── uploads/                # Временные загружаемые файлы  
+├── training_dataset/       # Финальный датасет для обучения
+└── learning_data/          # Промежуточные данные обучения
 ```
 
 ## Лицензия

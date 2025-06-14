@@ -56,3 +56,34 @@ config = {
 def get_config():
     """Возвращает текущую конфигурацию"""
     return config[os.environ.get('FLASK_ENV', 'default')]
+
+# UI Analysis Settings
+ANALYSIS_SETTINGS = {
+    'min_element_area': 100,
+    'max_element_area': 50000,
+    'button_aspect_ratio_range': (0.3, 5.0),
+    'input_field_aspect_ratio_min': 2.0,
+    'icon_area_threshold': 10000,
+    'default_text_confidence': 0.8
+}
+
+# Dataset settings
+DATASET_SETTINGS = {
+    'output_dir': 'training_dataset',
+    'learning_data_dir': 'learning_data',
+    'annotation_formats': ['yolo', 'coco', 'json'],
+    'backup_original_images': True
+}
+
+# UI Keywords for classification
+UI_KEYWORDS = {
+    'action_buttons': ['start', 'play', 'begin', 'continue', 'resume', 'go', 'launch'],
+    'menu_buttons': ['menu', 'options', 'settings', 'config', 'preferences'],
+    'close_buttons': ['close', 'exit', 'quit', 'cancel', 'dismiss', 'back'],
+    'navigation_buttons': ['next', 'previous', 'forward', 'back', 'return'],
+    'shop_buttons': ['buy', 'purchase', 'shop', 'store', 'market'],
+    'inventory_buttons': ['inventory', 'items', 'equipment', 'gear'],
+    'health_indicators': ['health', 'hp', 'life', 'hearts'],
+    'mana_indicators': ['mana', 'mp', 'magic', 'energy'],
+    'experience_indicators': ['experience', 'exp', 'xp', 'level']
+}
