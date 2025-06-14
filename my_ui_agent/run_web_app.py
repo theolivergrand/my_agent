@@ -6,6 +6,8 @@
 import sys
 import os
 import subprocess
+import logging
+from pathlib import Path
 
 def check_requirements():
     """Проверяет наличие необходимых пакетов"""
@@ -46,44 +48,85 @@ def check_google_credentials():
         print("   Установите её, указав путь к JSON файлу с ключами Google Cloud")
     return False
 
+def check_environment():
+    """Проверяет, правильно ли настроена среда"""
+    issues = []
+    
+    # Проверка версии Python
+    if sys.version_info < (3, 8):
+        issues.append("Требуется Python 3.8+")
+    
+    # Проверка необходимых директорий
+    required_dirs = ['uploads', 'training_dataset', 'learning_data', 'templates']
+    for dir_name in required_dirs:
+        dir_path = Path(__file__).parent / dir_name
+        if not dir_path.exists():
+            try:
+                dir_path.mkdir(exist_ok=True)
+                print(f"✅ Создана директория: {dir_name}")
+            except Exception as e:
+                issues.append(f"Не удается создать директорию {dir_name}: {e}")
+    
+    # Проверка учетных данных Google Cloud (необязательно)
+    if not os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'):
+        print("⚠️  Учетные данные Google Cloud не найдены - Vision API будет отключен")
+        print("   Установите переменную окружения GOOGLE_APPLICATION_CREDENTIALS для включения")
+    else:
+        print("✅ Учетные данные Google Cloud найдены")
+    
+    # Проверка необходимых пакетов
+    required_packages = [
+        ('flask', 'Flask'),
+        ('PIL', 'Pillow'),
+    ]
+    
+    for package, pip_name in required_packages:
+        try:
+            __import__(package)
+            print(f"✅ {pip_name} установлен")
+        except ImportError:
+            issues.append(f"Отсутствует пакет: {pip_name}")
+    
+    return issues
+
 def main():
     """Основная функция запуска"""
     print("🚀 Запуск UI Dataset Web App")
     print("=" * 50)
     
-    # Проверяем пакеты
-    if not check_requirements():
-        print("\n📦 Пытаемся установить пакеты...")
-        if not install_requirements():
-            print("❌ Не удалось установить пакеты. Установите их вручную:")
-            print("   pip install -r requirements.txt")
-            sys.exit(1)
+    # Проверяем окружение
+    issues = check_environment()
     
-    # Проверяем Google Cloud credentials
-    if not check_google_credentials():
-        print("\n⚠️  Предупреждение: Google Cloud credentials не настроены")
-        print("   Анализ изображений может не работать")
-        print("   Для настройки см. файл GITHUB_SETUP.md")
+    if issues:
+        print("\n❌ Обнаружены проблемы в окружении:")
+        for issue in issues:
+            print(f"   - {issue}")
+        print("\nПожалуйста, исправьте эти проблемы перед запуском приложения.")
+        return False
     
-    # Создаем необходимые папки
-    os.makedirs("uploads", exist_ok=True)
-    os.makedirs("training_dataset", exist_ok=True)
-    os.makedirs("static", exist_ok=True)
-    
-    print("\n🌐 Запускаем веб-сервер...")
-    print("   Открывайте http://localhost:5000 в браузере")
+    print("\n✅ Проверка окружения пройдена!")
+    print("\n🌐 Запуск Flask приложения...")
+    print("   URL: http://localhost:5000")
     print("   Для остановки нажмите Ctrl+C")
     print("=" * 50)
     
-    # Запускаем Flask приложение
+    # Настройка логирования
+    logging.basicConfig(level=logging.INFO)
+    
     try:
-        from web_app import app
+        from .web_app import app
         app.run(debug=True, host='0.0.0.0', port=5000)
+    except ImportError as e:
+        print(f"❌ Не удалось импортировать веб-приложение: {e}")
+        return False
     except KeyboardInterrupt:
-        print("\n👋 Сервер остановлен пользователем")
+        print("\n👋 Приложение остановлено пользователем")
     except Exception as e:
-        print(f"\n❌ Ошибка при запуске сервера: {e}")
-        sys.exit(1)
+        print(f"❌ Ошибка приложения: {e}")
+        return False
+    
+    return True
 
 if __name__ == "__main__":
-    main()
+    success = main()
+    sys.exit(0 if success else 1)

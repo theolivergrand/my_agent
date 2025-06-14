@@ -1,79 +1,39 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI Элементы - Создание датасета</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>UI Dataset Web Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         .drop-zone {
             border: 2px dashed #ccc;
             border-radius: 10px;
-            padding: 60px;
+            padding: 40px;
             text-align: center;
-            background-color: #f8f9fa;
-            transition: all 0.3s ease;
             cursor: pointer;
+            transition: all 0.3s ease;
         }
-        
         .drop-zone:hover, .drop-zone.dragover {
             border-color: #007bff;
-            background-color: #e3f2fd;
-        }
-        
-        .taxonomy-preview {
-            max-height: 400px;
-            overflow-y: auto;
-            border: 1px solid #dee2e6;
-            border-radius: 8px;
-            padding: 15px;
             background-color: #f8f9fa;
         }
-        
-        .category-badge {
-            background-color: #e9ecef;
-            color: #495057;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            margin: 2px;
-            display: inline-block;
-        }
-        
         .hero-section {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 80px 0;
-            margin-bottom: 40px;
-        }
-        
-        .feature-card {
-            transition: transform 0.2s;
-            border: none;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            padding: 60px 0;
         }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
     <div class="hero-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold mb-4">
-                        <i class="fas fa-mobile-alt me-3"></i>
-                        UI Датасет для Mobile Gaming
-                    </h1>
-                    <p class="lead mb-4">
-                        Создавайте высококачественные датасеты UI элементов для обучения нейронных сетей. 
-                        Загружайте скриншоты игровых интерфейсов и размечайте элементы с помощью удобного веб-интерфейса.
-                    </p>
+                    <h1 class="display-4 mb-4">UI Dataset Web Application</h1>
+                    <p class="lead mb-5">Анализируйте UI элементы мобильных игр с помощью Google Vision API</p>
+                    
                     <div class="row mt-5">
                         <div class="col-md-4">
                             <div class="text-center">
@@ -102,146 +62,186 @@
         </div>
     </div>
 
-    <div class="container">
-        <!-- Flash Messages -->
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                <div class="row mb-4">
-                    <div class="col-12">
-                        {% for message in messages %}
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <i class="fas fa-exclamation-triangle me-2"></i>{{ message }}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-        {% endwith %}
-
-        <!-- Upload Section -->
-        <div class="row mb-5">
+    <div class="container my-5">
+        <div class="row">
             <div class="col-lg-8 mx-auto">
-                <div class="card feature-card">
-                    <div class="card-header bg-primary text-white">
-                        <h4 class="mb-0">
-                            <i class="fas fa-cloud-upload-alt me-2"></i>
-                            Загрузка изображения
-                        </h4>
-                    </div>
-                    <div class="card-body">
-                        <form id="uploadForm" action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
-                            <div class="drop-zone" id="dropZone">
-                                <i class="fas fa-cloud-upload-alt fa-4x text-muted mb-3"></i>
-                                <h5>Перетащите изображение сюда</h5>
+                <div class="card shadow">
+                    <div class="card-body p-5">
+                        <h2 class="card-title text-center mb-4">Загрузить изображение</h2>
+                        
+                        <form id="uploadForm" enctype="multipart/form-data">
+                            <div class="drop-zone mb-4" id="dropZone">
+                                <i class="fas fa-cloud-upload-alt fa-3x mb-3 text-muted"></i>
+                                <h4>Перетащите изображение сюда</h4>
                                 <p class="text-muted">или нажмите для выбора файла</p>
-                                <input type="file" name="file" id="fileInput" accept="image/*" style="display: none;" required>
-                                <button type="button" class="btn btn-outline-primary" onclick="document.getElementById('fileInput').click()">
-                                    <i class="fas fa-folder-open me-2"></i>Выбрать файл
-                                </button>
-                            </div>
-                            <div id="filePreview" class="mt-3" style="display: none;">
-                                <div class="d-flex align-items-center">
-                                    <img id="previewImg" src="" class="rounded me-3" style="max-width: 100px; max-height: 100px;">
-                                    <div>
-                                        <h6 id="fileName" class="mb-1"></h6>
-                                        <small id="fileInfo" class="text-muted"></small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3">
-                                <button type="submit" class="btn btn-success btn-lg" id="uploadBtn" disabled>
-                                    <i class="fas fa-upload me-2"></i>Загрузить и анализировать
-                                </button>
+                                <input type="file" id="fileInput" name="file" accept="image/*" style="display: none;">
                             </div>
                         </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Taxonomy Preview -->
-        <div class="row mb-5">
-            <div class="col-12">
-                <div class="card feature-card">
-                    <div class="card-header bg-info text-white">
-                        <h4 class="mb-0">
-                            <i class="fas fa-sitemap me-2"></i>
-                            Таксономия UI элементов
-                        </h4>
-                    </div>
-                    <div class="card-body">
-                        <p class="text-muted mb-3">
-                            Наша система использует специализированную таксономию для mobile gaming интерфейсов:
-                        </p>
-                        <div class="taxonomy-preview">
-                            {% for category, tags in taxonomy.items() %}
-                                <div class="mb-3">
-                                    <h6 class="text-capitalize fw-bold text-primary">
-                                        <i class="fas fa-folder me-2"></i>{{ category.replace('_', ' ') }}
-                                    </h6>
-                                    <div class="ms-3">
-                                        {% for tag in tags %}
-                                            <span class="category-badge">{{ tag.replace('_', ' ') }}</span>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                            {% endfor %}
+                        
+                        <div id="preview" class="text-center" style="display: none;">
+                            <img id="previewImage" class="img-fluid rounded mb-3" style="max-height: 300px;">
+                            <div>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="uploadFile()">
+                                    <i class="fas fa-upload"></i> Анализировать изображение
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div id="loading" class="text-center" style="display: none;">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Загрузка...</span>
+                            </div>
+                            <p class="mt-2">Анализируем изображение...</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Quick Links -->
-        <div class="row mb-5">
+        
+        <div class="row mt-5">
             <div class="col-md-6">
-                <div class="card feature-card h-100">
+                <div class="card">
                     <div class="card-body text-center">
-                        <i class="fas fa-database fa-3x text-primary mb-3"></i>
+                        <i class="fas fa-database fa-2x mb-3 text-primary"></i>
                         <h5>Просмотр датасета</h5>
-                        <p class="text-muted">Посмотрите уже созданные записи в датасете</p>
-                        <a href="{{ url_for('dataset_overview') }}" class="btn btn-outline-primary">
-                            <i class="fas fa-eye me-2"></i>Открыть датасет
-                        </a>
+                        <p>Посмотрите созданные аннотации</p>
+                        <a href="/dataset" class="btn btn-outline-primary">Открыть датасет</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card feature-card h-100">
+                <div class="card">
                     <div class="card-body text-center">
-                        <i class="fas fa-cog fa-3x text-secondary mb-3"></i>
-                        <h5>API документация</h5>
-                        <p class="text-muted">Используйте API для интеграции с другими системами</p>
-                        <a href="{{ url_for('api_taxonomy') }}" class="btn btn-outline-secondary" target="_blank">
-                            <i class="fas fa-code me-2"></i>API Таксономии
-                        </a>
+                        <i class="fas fa-tags fa-2x mb-3 text-success"></i>
+                        <h5>Таксономия UI</h5>
+                        <p>82 тега в 5 категориях</p>
+                        <button class="btn btn-outline-success" onclick="showTaxonomy()">Показать теги</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-4 mt-5">
-        <div class="container text-center">
-            <p class="mb-0">
-                <i class="fas fa-robot me-2"></i>
-                UI Analysis Agent - Powered by Google Vision API & Flask
-            </p>
+    <!-- Taxonomy Modal -->
+    <div class="modal fade" id="taxonomyModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">UI Taxonomy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="taxonomyContent">
+                    Loading...
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Drag & Drop functionality
         const dropZone = document.getElementById('dropZone');
         const fileInput = document.getElementById('fileInput');
-        const filePreview = document.getElementById('filePreview');
-        const uploadBtn = document.getElementById('uploadBtn');
+        const preview = document.getElementById('preview');
+        const previewImage = document.getElementById('previewImage');
+        const loading = document.getElementById('loading');
 
-        // Prevent default drag behaviors
-        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+        // Drag and drop functionality
+        dropZone.addEventListener('click', () => fileInput.click());
+        dropZone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+        dropZone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFile(files[0]);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        function handleFile(file) {
+            if (!file.type.startsWith('image/')) {
+                alert('Пожалуйста, выберите изображение');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImage.src = e.target.result;
+                preview.style.display = 'block';
+                dropZone.style.display = 'none';
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function uploadFile() {
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            loading.style.display = 'block';
+            preview.style.display = 'none';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    return response.json();
+                }
+            })
+            .then(data => {
+                if (data && data.error) {
+                    alert('Ошибка: ' + data.error);
+                    loading.style.display = 'none';
+                    preview.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Ошибка загрузки файла');
+                loading.style.display = 'none';
+                preview.style.display = 'block';
+            });
+        }
+
+        function showTaxonomy() {
+            fetch('/api/taxonomy')
+            .then(response => response.json())
+            .then(data => {
+                let content = '';
+                for (const [category, elements] of Object.entries(data)) {
+                    content += `<div class="mb-4">
+                        <h6 class="text-primary text-uppercase">${category}</h6>
+                        <div class="row">`;
+                    
+                    elements.forEach(element => {
+                        content += `<div class="col-md-4 mb-2">
+                            <span class="badge bg-light text-dark">${element}</span>
+                        </div>`;
+                    });
+                    
+                    content += '</div></div>';
+                }
+                document.getElementById('taxonomyContent').innerHTML = content;
+                new bootstrap.Modal(document.getElementById('taxonomyModal')).show();
+            });
+        }
+    </script>
+</body>
+</html>
             dropZone.addEventListener(eventName, preventDefaults, false);
             document.body.addEventListener(eventName, preventDefaults, false);
         });

@@ -2,41 +2,56 @@
 Константы и таксономия UI элементов для проекта UI Analysis Agent
 """
 
-# Mobile Gaming UI Element Taxonomy
+# Mobile Gaming UI Element Taxonomy - 82 тега в 5 категориях
 MOBILE_GAMING_UI_TAXONOMY = {
-    'interactive': [
-        'button', 'action_button', 'menu_button', 'close_button', 'back_button',
-        'joystick', 'virtual_joystick', 'directional_pad', 'touch_zone',
-        'slider', 'toggle', 'checkbox', 'radio_button', 'dropdown', 
-        'input_field', 'search_box', 'skill_button', 'attack_button'
+    "interactive": [
+        "button", "icon_button", "toggle_button", "radio_button", "checkbox",
+        "slider", "joystick", "touch_area", "drag_handle", "input_field",
+        "search_box", "dropdown", "picker", "stepper", "switch",
+        "tap_zone", "gesture_area", "scroll_handle", "resize_handle",
+        "action_button", "menu_button", "close_button", "back_button",
+        "forward_button", "play_button", "pause_button", "stop_button",
+        "record_button", "settings_button", "help_button", "info_button"
     ],
-    
-    'navigational': [
-        'menu', 'main_menu', 'pause_menu', 'settings_menu', 'inventory_menu',
-        'tab', 'menu_tab', 'navigation_bar', 'breadcrumb', 'pagination', 
-        'scroll_bar', 'home_button', 'minimap', 'compass'
+    "navigational": [
+        "menu", "navigation_bar", "tab_bar", "breadcrumb", "pagination",
+        "sidebar", "drawer", "bottom_sheet", "toolbar", "header",
+        "footer", "minimap", "level_selector", "chapter_nav", "world_map"
     ],
-    
-    'informational': [
-        'text_label', 'title_text', 'description_text', 'instruction_text',
-        'icon', 'weapon_icon', 'item_icon', 'skill_icon', 'currency_icon',
-        'image', 'logo', 'avatar', 'progress_indicator', 'health_bar', 
-        'mana_bar', 'experience_bar', 'status_bar', 'notification', 
-        'score_counter', 'coin_counter', 'level_indicator'
+    "informational": [
+        "text_label", "title", "subtitle", "description", "caption",
+        "badge", "notification", "alert", "tooltip", "status_indicator",
+        "progress_bar", "loading_spinner", "health_bar", "mana_bar",
+        "experience_bar", "score_display", "timer", "counter", "level_indicator"
     ],
-    
-    'structural': [
-        'panel', 'background_panel', 'card', 'list_item', 'grid_item', 
-        'modal', 'popup', 'overlay', 'container', 'divider', 'frame',
-        'border_frame', 'inventory_slot', 'chat_window'
+    "structural": [
+        "panel", "card", "container", "frame", "border", "divider",
+        "separator", "modal", "dialog", "popup", "overlay", "mask",
+        "background", "layout_grid", "list_container", "scroll_view"
     ],
-    
-    'gaming_specific': [
-        'hud_element', 'minimap', 'health_bar', 'mana_bar', 'stamina_bar',
-        'inventory_slot', 'skill_button', 'achievement_badge', 
-        'leaderboard_entry', 'chat_bubble', 'quest_marker', 
-        'upgrade_button', 'shop_item', 'daily_deal', 'special_offer'
+    "gaming_specific": [
+        "hud_element", "inventory_slot", "character_portrait", "skill_icon",
+        "weapon_slot", "armor_slot", "spell_icon", "achievement_badge",
+        "quest_indicator", "map_marker", "resource_counter", "energy_meter",
+        "cooldown_timer", "buff_icon", "debuff_icon", "chat_bubble"
     ]
+}
+
+# Конфигурация анализа
+ANALYSIS_CONFIG = {
+    "supported_formats": ["png", "jpg", "jpeg", "gif", "bmp", "webp"],
+    "max_file_size": 16 * 1024 * 1024,  # 16MB
+    "confidence_threshold": 0.5,
+    "min_element_size": 10,  # минимальный размер элемента интерфейса в пикселях
+}
+
+# Цветовые схемы для визуализации
+UI_COLORS = {
+    "text": "#00FF00",           # Зеленый для текста
+    "buttons": "#FF0000",       # Красный для интерактивных элементов
+    "containers": "#0000FF",    # Синий для структурных элементов
+    "navigation": "#FFFF00",    # Желтый для навигации
+    "gaming": "#FF00FF"         # Пурпурный для игровых элементов
 }
 
 # Создаем плоский список всех тегов для удобства

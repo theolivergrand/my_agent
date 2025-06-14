@@ -1,3 +1,40 @@
+"""
+Configuration settings for the UI Analysis Web Application
+"""
+import os
+from pathlib import Path
+
+# Base directory
+BASE_DIR = Path(__file__).parent
+
+# Flask configuration
+class Config:
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'ui-analysis-secret-key-change-in-production'
+    UPLOAD_FOLDER = BASE_DIR / 'uploads'
+    TRAINING_DATASET_FOLDER = BASE_DIR / 'training_dataset'
+    LEARNING_DATA_FOLDER = BASE_DIR / 'learning_data'
+    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file upload
+    
+    # Create directories if they don't exist
+    UPLOAD_FOLDER.mkdir(exist_ok=True)
+    TRAINING_DATASET_FOLDER.mkdir(exist_ok=True)
+    LEARNING_DATA_FOLDER.mkdir(exist_ok=True)
+
+# Google Cloud Vision API configuration
+GOOGLE_CLOUD_CONFIG = {
+    'credentials_path': os.environ.get('GOOGLE_APPLICATION_CREDENTIALS'),
+    'project_id': os.environ.get('GOOGLE_CLOUD_PROJECT', 'gdd-suite')
+}
+
+# Analysis settings
+ANALYSIS_SETTINGS = {
+    'confidence_threshold': 0.7,
+    'max_results': 50,
+    'enable_text_detection': True,
+    'enable_object_detection': True,
+    'enable_face_detection': False
+}
+
 # Конфигурация Flask приложения
 import os
 from pathlib import Path
@@ -19,7 +56,11 @@ class Config:
     
     # Google Cloud Vision API
     GOOGLE_APPLICATION_CREDENTIALS = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
-    
+    GOOGLE_OAUTH_CLIENT_ID = os.environ.get('GOOGLE_OAUTH_CLIENT_ID')
+    GOOGLE_OAUTH_CLIENT_SECRET = os.environ.get('GOOGLE_OAUTH_CLIENT_SECRET')
+    GOOGLE_OAUTH_REDIRECT_URI = os.environ.get('GOOGLE_OAUTH_REDIRECT_URI', 'http://localhost:5000/oauth2callback')
+
+
     # Настройки интерфейса
     ITEMS_PER_PAGE = 12
     ANNOTATION_TIMEOUT = 300  # 5 минут на аннотацию
