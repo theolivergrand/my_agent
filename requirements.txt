@@ -1,0 +1,30 @@
+# AI Vision Dependencies
+google-cloud-vision==3.4.5
+google-auth==2.23.4
+
+# Hugging Face Transformers для Phi Vision 3.5
+transformers==4.36.2
+torch==2.1.2
+torchvision==0.16.2
+accelerate==0.25.0
+pillow==10.1.0
+
+# Дополнительные зависимости для обработки изображений
+opencv-python==4.8.1.78
+numpy==1.24.4
+
+# Веб-интерфейс (если нужен)
+streamlit==1.28.2
+gradio==4.8.0
+
+# Утилиты
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+
+# Логирование и отладка
+loguru==0.7.2
+
+# Опциональные зависимости для OpenAI/Anthropic (если потребуются)
+# openai==1.3.7
+# anthropic==0.7.8
