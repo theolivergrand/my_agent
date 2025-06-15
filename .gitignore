@@ -1,5 +1,10 @@
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+# Игнорируемые файлы и папки
+
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+.env/
 .Python
 [Bb]in
 [Ii]nclude
@@ -8,5 +13,91 @@
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.venv
 pip-selfcheck.json
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Файлы тестирования
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Переводы
+*.mo
+*.pot
+
+# Документация Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Среды разработки
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code workspace файлы
+*.code-workspace
+
+# Временные файлы загрузки
+my_ui_agent/uploads/
+*.tmp
+*.temp
+
+# Логи
+logs/
+
+# Секретные ключи и конфигурации
+gdd-suite-*.json
+
+# Данные обучения (большие файлы)
+my_ui_agent/training_dataset/
+my_ui_agent/learning_data/
