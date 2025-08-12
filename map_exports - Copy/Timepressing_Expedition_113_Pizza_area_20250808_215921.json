@@ -1,0 +1,518 @@
+{
+    "sceneName": "Timepressing_Expedition_113_Pizza",
+    "areaCenter": {
+        "x": 51.880001068115237,
+        "y": 0.0,
+        "z": 111.80000305175781
+    },
+    "areaSize": {
+        "x": 8.485282897949219,
+        "y": 1.0,
+        "z": 8.48529052734375
+    },
+    "screenshotPath": "D:\\adventures-40.0-develop\\map_exports\\Timepressing_Expedition_113_Pizza_area_20250808_215921.png",
+    "comment": "Кэшбек энергии для игрока",
+    "objects": [
+        {
+            "name": "Obstacle_Pomegranate_2",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Swamp/Obstacle_Swamp_MagnoliaTree.prefab",
+            "position": {
+                "x": 50.18000030517578,
+                "y": 8.0,
+                "z": 112.12999725341797
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 50.18000030517578,
+                "y": 8.0,
+                "z": 112.12999725341797
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_ParkBench_Back_4",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/Expedition_03_03_Lighthouse_Mystery/Decor_ParkBench_Back.prefab",
+            "position": {
+                "x": 50.20000076293945,
+                "y": 8.0,
+                "z": 112.58999633789063
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 53.67000198364258,
+                "y": 8.0,
+                "z": 111.52999877929688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CasualLantern_3",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": 48.279998779296878,
+                "y": 8.0,
+                "z": 114.4000015258789
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.75,
+                "y": 8.0,
+                "z": 113.34000396728516
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_CasualLantern",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.75,
+                "y": 8.0,
+                "z": 113.34000396728516
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Big_lantern",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": 0.026000000536441804,
+                "y": 1.593000054359436,
+                "z": -1.4470000267028809
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 0.8660258054733276,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.7760009765625,
+                "y": 9.839437484741211,
+                "z": 111.89300537109375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Fire",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": -0.03550000116229057,
+                "y": -0.3278000056743622,
+                "z": 1.524999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.740501403808597,
+                "y": 9.511636734008789,
+                "z": 113.41800689697266
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Glow",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": -0.028999999165534974,
+                "y": -0.27900001406669619,
+                "z": 1.5540000200271607
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.74700164794922,
+                "y": 9.560437202453614,
+                "z": 113.44700622558594
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Glow_big",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": -0.03779999911785126,
+                "y": -0.14000000059604646,
+                "z": 1.4211000204086304
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.73820114135742,
+                "y": 9.699437141418457,
+                "z": 113.31410217285156
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Latern_light",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_04_Christmas/CasualLantern.prefab",
+            "position": {
+                "x": 0.009999999776482582,
+                "y": -0.014999999664723874,
+                "z": 0.026000000536441804
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.7599983215332,
+                "y": 7.98267936706543,
+                "z": 113.36600494384766
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "113_PottedOrangeFlowers",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_113_Pizza/113_PottedOrangeFlowers.prefab",
+            "position": {
+                "x": 48.7599983215332,
+                "y": 8.0,
+                "z": 113.72000122070313
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.22999954223633,
+                "y": 8.0,
+                "z": 112.66000366210938
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "MapSelectionArea",
+            "prefabPath": "",
+            "position": {
+                "x": 51.880001068115237,
+                "y": 0.0,
+                "z": 111.80000305175781
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.880001068115237,
+                "y": 0.0,
+                "z": 111.80000305175781
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ],
+    "terrain": {
+        "views": [
+            {
+                "name": "Terrain",
+                "position": {
+                    "x": -32.0,
+                    "y": 0.0,
+                    "z": -8.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "floorColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 65.67216491699219,
+                    "y": 4.0,
+                    "z": 81.65921020507813
+                },
+                "rendererBoundsSize": {
+                    "x": 195.83828735351563,
+                    "y": 16.0,
+                    "z": 180.68157958984376
+                }
+            }
+        ],
+        "components": [
+            {
+                "name": "Cliff",
+                "type": "TerrainPlatform",
+                "position": {
+                    "x": 88.9000015258789,
+                    "y": 4.0,
+                    "z": 100.5
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 86.5875244140625,
+                    "y": 2.0,
+                    "z": 114.30339813232422
+                },
+                "rendererBoundsSize": {
+                    "x": 148.12088012695313,
+                    "y": 4.0,
+                    "z": 102.31182861328125
+                }
+            },
+            {
+                "name": "Cliff",
+                "type": "TerrainPlatform",
+                "position": {
+                    "x": 59.19999694824219,
+                    "y": 8.0,
+                    "z": 134.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 50.20195388793945,
+                    "y": 6.0,
+                    "z": 115.76026916503906
+                },
+                "rendererBoundsSize": {
+                    "x": 71.54087829589844,
+                    "y": 4.0,
+                    "z": 85.81120300292969
+                }
+            }
+        ]
+    },
+    "clouds": {
+        "transparentAreas": [],
+        "cloudsViews": []
+    }
+}

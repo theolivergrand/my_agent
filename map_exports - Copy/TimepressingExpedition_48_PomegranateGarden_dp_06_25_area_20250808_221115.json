@@ -1,0 +1,5528 @@
+{
+    "sceneName": "TimepressingExpedition_48_PomegranateGarden_dp_06_25",
+    "areaCenter": {
+        "x": 43.82151794433594,
+        "y": 0.0,
+        "z": 6.496001243591309
+    },
+    "areaSize": {
+        "x": 24.748733520507814,
+        "y": 1.0,
+        "z": 24.748735427856447
+    },
+    "screenshotPath": "D:\\adventures-40.0-develop\\map_exports\\TimepressingExpedition_48_PomegranateGarden_dp_06_25_area_20250808_221115.png",
+    "comment": "Проход плюс объект восстановления ворота",
+    "objects": [
+        {
+            "name": "RhododendronBloom",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/RhododendronBloom.prefab",
+            "position": {
+                "x": 40.86707305908203,
+                "y": 0.0,
+                "z": 11.755439758300782
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.86707305908203,
+                "y": 0.0,
+                "z": 11.755439758300782
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "YardsBush",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/YardsBush.prefab",
+            "position": {
+                "x": 40.43379592895508,
+                "y": 0.0,
+                "z": 11.490997314453125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.43379592895508,
+                "y": 0.0,
+                "z": 11.490997314453125
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Lupine",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Lupine.prefab",
+            "position": {
+                "x": 40.991519927978519,
+                "y": 0.0,
+                "z": 11.176101684570313
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547003984451295,
+                "z": 1.0000001192092896
+            },
+            "worldPosition": {
+                "x": 40.991519927978519,
+                "y": 0.0,
+                "z": 11.176101684570313
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547003984451295,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "FlowerPinkChamomile",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/FlowerPinkChamomile.prefab",
+            "position": {
+                "x": 38.64088439941406,
+                "y": 0.0,
+                "z": 11.141212463378907
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 38.64088439941406,
+                "y": 0.0,
+                "z": 11.141212463378907
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "StumpSmall",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/StumpSmall.prefab",
+            "position": {
+                "x": 38.199920654296878,
+                "y": 0.0,
+                "z": 9.586624145507813
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 38.199920654296878,
+                "y": 0.0,
+                "z": 9.586624145507813
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Tolmiea",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_Tolmiea.prefab",
+            "position": {
+                "x": 38.837249755859378,
+                "y": 0.0,
+                "z": 8.668792724609375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 38.837249755859378,
+                "y": 0.0,
+                "z": 8.668792724609375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_CarpobrotusBush_2",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_CarpobrotusBush_2.prefab",
+            "position": {
+                "x": 39.995361328125,
+                "y": 0.0,
+                "z": 7.494903564453125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 39.995361328125,
+                "y": 0.0,
+                "z": 7.494903564453125
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_LantanaCamara",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_LantanaCamara.prefab",
+            "position": {
+                "x": 41.51499938964844,
+                "y": 0.0,
+                "z": 7.188000202178955
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.51499938964844,
+                "y": 0.0,
+                "z": 7.188000202178955
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_LantanaCamara_7",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_LantanaCamara.prefab",
+            "position": {
+                "x": 42.145999908447269,
+                "y": 0.0,
+                "z": 6.9670000076293949
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.145999908447269,
+                "y": 0.0,
+                "z": 6.9670000076293949
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_LantanaCamara_8",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_LantanaCamara.prefab",
+            "position": {
+                "x": 42.012001037597659,
+                "y": 0.0,
+                "z": 6.166999816894531
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.012001037597659,
+                "y": 0.0,
+                "z": 6.166999816894531
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Grass",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Grass.prefab",
+            "position": {
+                "x": 39.66645431518555,
+                "y": 0.0,
+                "z": 10.308326721191407
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 39.66645431518555,
+                "y": 0.0,
+                "z": 10.308326721191407
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "StoneSmall_Grey",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/StoneSmall_Grey.prefab",
+            "position": {
+                "x": 42.68342971801758,
+                "y": 0.0,
+                "z": 4.922607421875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.68342971801758,
+                "y": 0.0,
+                "z": 4.922607421875
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Clay_Small",
+            "prefabPath": "Assets/Data/Objects/Obstacles/SpecialResources/Clay_Small.prefab",
+            "position": {
+                "x": 43.865699768066409,
+                "y": 0.0,
+                "z": 3.7947311401367189
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.865699768066409,
+                "y": 0.0,
+                "z": 3.7947311401367189
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "IronOre_Small",
+            "prefabPath": "Assets/Data/Objects/Obstacles/SpecialResources/IronOre_Small.prefab",
+            "position": {
+                "x": 44.425086975097659,
+                "y": 0.0,
+                "z": 3.1759185791015627
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.425086975097659,
+                "y": 0.0,
+                "z": 3.1759185791015627
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Pomegranates_2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_2_00.prefab",
+            "position": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Pomegranates_2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Pomegranates_1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.36785888671875,
+                "y": 0.0,
+                "z": 10.938270568847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Pomegranates_1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_1_00.prefab",
+            "position": {
+                "x": 46.12105178833008,
+                "y": 0.0,
+                "z": 12.519012451171875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.12105178833008,
+                "y": 0.0,
+                "z": 12.519012451171875
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.12105178833008,
+                "y": 0.0,
+                "z": 12.519012451171875
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Pomegranates_1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_48_PomegranateGarden/Pomegranates_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.12105178833008,
+                "y": 0.0,
+                "z": 12.519012451171875
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Poppy",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_Poppy.prefab",
+            "position": {
+                "x": 46.44186019897461,
+                "y": 0.0,
+                "z": 9.991203308105469
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.44186019897461,
+                "y": 0.0,
+                "z": 9.991203308105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_YellowFlowers",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Swamp/Obstacle_YellowFlowers.prefab",
+            "position": {
+                "x": 45.36214065551758,
+                "y": 0.0,
+                "z": 11.031639099121094
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.36214065551758,
+                "y": 0.0,
+                "z": 11.031639099121094
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Poppy",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_Poppy.prefab",
+            "position": {
+                "x": 44.26204299926758,
+                "y": 0.0,
+                "z": 12.067062377929688
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.26204299926758,
+                "y": 0.0,
+                "z": 12.067062377929688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "GrassAutumn",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Autumn/GrassAutumn.prefab",
+            "position": {
+                "x": 53.11876678466797,
+                "y": 0.0,
+                "z": 10.394393920898438
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 53.11876678466797,
+                "y": 0.0,
+                "z": 10.394393920898438
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Plumeria",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Tropics/Plumeria.prefab",
+            "position": {
+                "x": 53.54999923706055,
+                "y": 0.0,
+                "z": 9.539999961853028
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 53.54999923706055,
+                "y": 0.0,
+                "z": 9.539999961853028
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "JeweledJug1_1",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Pots/TraderItem_Jug1.prefab",
+            "position": {
+                "x": 40.90999984741211,
+                "y": 0.0,
+                "z": 6.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.90999984741211,
+                "y": 0.0,
+                "z": 6.75
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ADMonetization_ChestEnergy_13",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 43.16383743286133,
+                "y": 0.0,
+                "z": 9.177047729492188
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.16383743286133,
+                "y": 0.0,
+                "z": 9.177047729492188
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.16383743286133,
+                "y": 0.0,
+                "z": 9.177047729492188
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.16383743286133,
+                "y": 0.0,
+                "z": 9.177047729492188
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.183837890625,
+                "y": 0.15011100471019746,
+                "z": 9.177047729492188
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_glow",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 0.047000885009765628,
+                "y": 0.1550000011920929,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 0.6987890005111694,
+                "y": 0.4203242063522339,
+                "z": 0.4203242063522339
+            },
+            "worldPosition": {
+                "x": 43.11683654785156,
+                "y": 0.17897850275039674,
+                "z": 9.177047729492188
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -0.6987890005111694,
+                "y": 0.4853483736515045,
+                "z": 0.4203242063522339
+            }
+        },
+        {
+            "name": "AdvertisingPlacementOnBanknotes",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Functional_AdvertisingPlacementOnBanknotes",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": -1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Functional_AdvertisingPlacementOnBanknotes",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": -1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Root",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071067094802856
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": -0.27059805393218996,
+                "y": 0.6532814502716065,
+                "z": 0.653281569480896,
+                "w": 0.27059802412986758
+            },
+            "worldScale": {
+                "x": -1.0000001192092896,
+                "y": 1.0000001192092896,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Bag_01",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071067094802856
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": -1.000000238418579,
+                "y": 0.9999998807907105,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "Bag_02",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2086094319820404,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.20860940217971803,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": -1.000000238418579,
+                "y": 0.9999998807907105,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "Bone_01",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2086094319820404,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.2784029245376587,
+                "y": 0.4761708676815033,
+                "z": 0.47617077827453616,
+                "w": 0.6848463416099548
+            },
+            "scale": {
+                "x": 1.000000238418579,
+                "y": 1.000000238418579,
+                "z": 0.9999998807907105
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.41721880435943606,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": -0.5464645624160767,
+                "y": 0.4504927694797516,
+                "z": 0.07498811185359955,
+                "w": 0.7020038366317749
+            },
+            "worldScale": {
+                "x": -1.0000001192092896,
+                "y": 1.0000001192092896,
+                "z": 0.9999996423721314
+            }
+        },
+        {
+            "name": "Handle_front",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": -1.6763806343078614e-8,
+                "y": 0.3968389928340912,
+                "z": -7.450580596923828e-9
+            },
+            "rotation": {
+                "x": 0.2784031331539154,
+                "y": -0.4761708080768585,
+                "z": -0.47617077827453616,
+                "w": 0.6848462820053101
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.000000238418579,
+                "z": 1.0000001192092896
+            },
+            "worldPosition": {
+                "x": 44.348628997802737,
+                "y": 0.572583794593811,
+                "z": 7.491436958312988
+            },
+            "worldRotation": {
+                "x": 1.946930581198103e-7,
+                "y": 0.9238795042037964,
+                "z": -8.064450440770088e-8,
+                "w": 0.38268351554870608
+            },
+            "worldScale": {
+                "x": -1.0000001192092896,
+                "y": 0.9999998807907105,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Bone_02",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2086094319820404,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.16905266046524049,
+                "y": -0.42432302236557009,
+                "z": -0.4243231415748596,
+                "w": 0.7818702459335327
+            },
+            "scale": {
+                "x": 0.9999998807907105,
+                "y": 1.0,
+                "z": 0.9999998807907105
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.41721880435943606,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.3273298442363739,
+                "y": 0.8847353458404541,
+                "z": 0.3185657262802124,
+                "w": -0.09281456470489502
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Handle_back",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 4.0978193283081057e-8,
+                "y": 0.29904454946517947,
+                "z": -2.0489096641540528e-8
+            },
+            "rotation": {
+                "x": 0.16905277967453004,
+                "y": 0.42432305216789248,
+                "z": 0.42432305216789248,
+                "w": 0.7818702459335327
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0,
+                "z": 0.9999999403953552
+            },
+            "worldPosition": {
+                "x": 44.77668762207031,
+                "y": 0.591484546661377,
+                "z": 7.919495105743408
+            },
+            "worldRotation": {
+                "x": 1.1209178296667233e-7,
+                "y": 0.9238795638084412,
+                "z": -1.1485906981079097e-7,
+                "w": 0.3826833963394165
+            },
+            "worldScale": {
+                "x": -1.0000001192092896,
+                "y": 0.9999997615814209,
+                "z": 0.9999998807907105
+            }
+        },
+        {
+            "name": "Bone_03",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2086094319820404,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.11697214096784592,
+                "y": 0.07701221108436585,
+                "z": 0.13047078251838685,
+                "w": 0.981511116027832
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000001192092896,
+                "z": 1.0000001192092896
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.41721880435943606,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": -0.07577598839998245,
+                "y": 0.8773266673088074,
+                "z": -0.15799719095230103,
+                "w": 0.4467580020427704
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "name": "Pack_front",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 3.725290298461914e-9,
+                "y": 0.36846446990966799,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.11688251793384552,
+                "y": -0.07701412588357926,
+                "z": -0.1303703784942627,
+                "w": 0.9815349578857422
+            },
+            "scale": {
+                "x": 0.9999998211860657,
+                "y": 0.9999998211860657,
+                "z": 0.9999998807907105
+            },
+            "worldPosition": {
+                "x": 44.58882141113281,
+                "y": 0.7630558013916016,
+                "z": 7.641999244689941
+            },
+            "worldRotation": {
+                "x": -0.00004955021358910017,
+                "y": 0.9238796234130859,
+                "z": -0.00012739446538034827,
+                "w": 0.38268333673477175
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 0.9999997615814209,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Bone_04",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2086094319820404,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.10086266696453095,
+                "y": 0.10312731564044953,
+                "z": 0.1031305193901062,
+                "w": 0.9841521978378296
+            },
+            "scale": {
+                "x": 0.9999998807907105,
+                "y": 0.9999999403953552,
+                "z": 0.9999999403953552
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.41721880435943606,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": -0.1338786631822586,
+                "y": 0.8697729706764221,
+                "z": 0.05371866375207901,
+                "w": 0.4718959629535675
+            },
+            "worldScale": {
+                "x": -0.9999999403953552,
+                "y": 0.9999998211860657,
+                "z": 0.9999999403953552
+            }
+        },
+        {
+            "name": "Pack_back",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 2.2351741790771486e-8,
+                "y": 0.43907979130744936,
+                "z": -1.862645149230957e-9
+            },
+            "rotation": {
+                "x": 0.10085967183113098,
+                "y": -0.10312739759683609,
+                "z": -0.1031273752450943,
+                "w": 0.9841528534889221
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.461280822753909,
+                "y": 0.8380247354507446,
+                "z": 7.754647254943848
+            },
+            "worldRotation": {
+                "x": -0.000004260151854396099,
+                "y": 0.9238794445991516,
+                "z": 0.0000011708475540217478,
+                "w": 0.3826833665370941
+            },
+            "worldScale": {
+                "x": -0.9999995827674866,
+                "y": 0.9999998807907105,
+                "z": 0.9999995827674866
+            }
+        },
+        {
+            "name": "Bottom",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.4172252416610718
+            },
+            "rotation": {
+                "x": -0.49999988079071047,
+                "y": 0.5000003576278687,
+                "z": -0.5000001192092896,
+                "w": 0.49999967217445376
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 0.9999999403953552,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.4172252118587494,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.38268381357192995,
+                "y": -2.2695085988289066e-7,
+                "z": 0.9238793849945068,
+                "w": 2.7672868441186439e-9
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 0.9999998807907105,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "No_anim",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071067094802856
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": -1.000000238418579,
+                "y": 0.9999998807907105,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "Shadow",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/AdvertisingPlacementOnBanknotes_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.5000000596046448,
+                "y": 0.4999999403953552,
+                "z": -0.5,
+                "w": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.58579635620117,
+                "y": 0.0,
+                "z": 7.769096374511719
+            },
+            "worldRotation": {
+                "x": 0.6532814502716065,
+                "y": 0.6532816290855408,
+                "z": 0.27059805393218996,
+                "w": 0.2705979645252228
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.000000238418579,
+                "z": 1.0000001192092896
+            }
+        },
+        {
+            "name": "GoldenToolsStash_1",
+            "prefabPath": "Assets/Data/Objects/Chests/GoldenToolsChests/GoldenToolsStash_1_00.prefab",
+            "position": {
+                "x": 46.1088752746582,
+                "y": 0.0,
+                "z": 2.0311965942382814
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.1088752746582,
+                "y": 0.0,
+                "z": 2.0311965942382814
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ExchangeCollectionsChest_02_flip",
+            "prefabPath": "Assets/Data/Objects/Chests/ExchangeCollectionsChests/ExchangeCollectionsChest_02_flip_00.prefab",
+            "position": {
+                "x": 51.209999084472659,
+                "y": 0.0,
+                "z": 7.909999847412109
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.209999084472659,
+                "y": 0.0,
+                "z": 7.909999847412109
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CheapResourscesChest_01",
+            "prefabPath": "Assets/Data/Objects/Chests/CheapResourcesChests/CheapResourscesChest_01_00.prefab",
+            "position": {
+                "x": 47.22452163696289,
+                "y": 0.0,
+                "z": 2.47119140625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 47.22452163696289,
+                "y": 0.0,
+                "z": 2.47119140625
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ADMonetization_ChestEnergy_23",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 44.91514587402344,
+                "y": 0.0,
+                "z": 17.427139282226564
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.91514587402344,
+                "y": 0.0,
+                "z": 17.427139282226564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.91514587402344,
+                "y": 0.0,
+                "z": 17.427139282226564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.91514587402344,
+                "y": 0.0,
+                "z": 17.427139282226564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.895145416259769,
+                "y": 0.15011100471019746,
+                "z": 17.427139282226564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_glow",
+            "prefabPath": "Assets/Data/Objects/Chests/ADMonetization/ADMonetization_ChestEnergy_00.prefab",
+            "position": {
+                "x": 0.047000885009765628,
+                "y": 0.1550000011920929,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 0.6987890005111694,
+                "y": 0.4203242063522339,
+                "z": 0.4203242063522339
+            },
+            "worldPosition": {
+                "x": 44.9621467590332,
+                "y": 0.17897850275039674,
+                "z": 17.427139282226564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 0.6987890005111694,
+                "y": 0.4853483736515045,
+                "z": 0.4203242063522339
+            }
+        },
+        {
+            "name": "Rosa_Mom",
+            "prefabPath": "Assets/Data/Objects/Characters/Npc/Rosa_Mom.prefab",
+            "position": {
+                "x": 46.80426788330078,
+                "y": 0.0,
+                "z": 16.88140869140625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.9961947202682495,
+                "z": 0.0,
+                "w": -0.087155781686306
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.80426788330078,
+                "y": 0.0,
+                "z": 16.88140869140625
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.9961947202682495,
+                "z": 0.0,
+                "w": -0.087155781686306
+            },
+            "worldScale": {
+                "x": 1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Rosa_Mom",
+            "prefabPath": "Assets/Data/Objects/Characters/Npc/Rosa_Mom.prefab",
+            "position": {
+                "x": -1.970948226384598e-17,
+                "y": 0.8885424733161926,
+                "z": 0.01500069908797741
+            },
+            "rotation": {
+                "x": 0.5383048057556152,
+                "y": -0.4585062265396118,
+                "z": -0.5383048057556152,
+                "w": 0.4585062265396118
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.8068733215332,
+                "y": 0.8885424733161926,
+                "z": 16.866636276245118
+            },
+            "worldRotation": {
+                "x": 0.48934006690979006,
+                "y": -0.41680002212524416,
+                "z": 0.5831727981567383,
+                "w": -0.496722936630249
+            },
+            "worldScale": {
+                "x": 1.0000001192092896,
+                "y": 1.000000238418579,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "Shadow_Characters",
+            "prefabPath": "Assets/Data/Objects/Characters/CharactersAssets/Shadow_Characters.prefab",
+            "position": {
+                "x": 0.054999999701976779,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.0
+            },
+            "worldPosition": {
+                "x": 46.75010299682617,
+                "y": 0.0,
+                "z": 16.871858596801759
+            },
+            "worldRotation": {
+                "x": -0.06162844970822334,
+                "y": -0.7044160962104797,
+                "z": 0.7044160962104797,
+                "w": -0.06162844970822334
+            },
+            "worldScale": {
+                "x": 1.0000004768371583,
+                "y": 1.0000003576278687,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "DestroyedColumnSmall",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_48_Pomegranate_Garden/DestroyedColumnSmall.prefab",
+            "position": {
+                "x": 51.9900016784668,
+                "y": 0.0,
+                "z": 7.119999885559082
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.9900016784668,
+                "y": 0.0,
+                "z": 7.119999885559082
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Destroyed_column_small_greece",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_48_Pomegranate_Garden/DestroyedColumnSmall.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.9900016784668,
+                "y": 0.0,
+                "z": 7.119999885559082
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_PotFlower1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_41_Flamenco/Decor_PotFlower1.prefab",
+            "position": {
+                "x": 51.0099983215332,
+                "y": 0.0,
+                "z": 5.940000057220459
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.0099983215332,
+                "y": 0.0,
+                "z": 5.940000057220459
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_PotFlower3",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_41_Flamenco/Decor_PotFlower3.prefab",
+            "position": {
+                "x": 44.28801727294922,
+                "y": 0.0,
+                "z": 15.070381164550782
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.28801727294922,
+                "y": 0.0,
+                "z": 15.070381164550782
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_PotFlower2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_41_Flamenco/Decor_PotFlower2.prefab",
+            "position": {
+                "x": 47.970001220703128,
+                "y": 0.0,
+                "z": 11.5600004196167
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 47.970001220703128,
+                "y": 0.0,
+                "z": 11.5600004196167
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodWhite_Bench",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_40_MoonFairyTale/WoodWhite_Bench.prefab",
+            "position": {
+                "x": 49.709999084472659,
+                "y": 0.0,
+                "z": 9.630000114440918
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 49.709999084472659,
+                "y": 0.0,
+                "z": 9.630000114440918
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodWhite_Bench",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_40_MoonFairyTale/WoodWhite_Bench.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834261417389,
+                "z": 0.0,
+                "w": 0.9238795638084412
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 49.709999084472659,
+                "y": 0.0,
+                "z": 9.630000114440918
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834261417389,
+                "z": 0.0,
+                "w": 0.9238795638084412
+            },
+            "worldScale": {
+                "x": -1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodGates_White",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Bridges/TimepressingExpedition_48_Pomegranate-Garden/WoodGates_Dark_White.prefab",
+            "position": {
+                "x": 48.5099983215332,
+                "y": 0.0,
+                "z": 5.159999847412109
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.5099983215332,
+                "y": 0.0,
+                "z": 5.159999847412109
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Bridges/TimepressingExpedition_48_Pomegranate-Garden/WoodGates_Dark_White.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.5099983215332,
+                "y": 0.0,
+                "z": 5.159999847412109
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodGates_Closed",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Bridges/TimepressingExpedition_48_Pomegranate-Garden/WoodGates_Dark_White.prefab",
+            "position": {
+                "x": -0.02500000037252903,
+                "y": 0.0,
+                "z": -0.27000001072883608
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.4849967956543,
+                "y": 0.0,
+                "z": 4.889999866485596
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": 1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "State2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Bridges/TimepressingExpedition_48_Pomegranate-Garden/WoodGates_Dark_White.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.5099983215332,
+                "y": 0.0,
+                "z": 5.159999847412109
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodGates_Open",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Bridges/TimepressingExpedition_48_Pomegranate-Garden/WoodGates_Dark_White.prefab",
+            "position": {
+                "x": -0.02500000037252903,
+                "y": 0.0,
+                "z": -0.27000001072883608
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.4849967956543,
+                "y": 0.0,
+                "z": 4.889999866485596
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.9238795638084412,
+                "z": 0.0,
+                "w": 0.3826834261417389
+            },
+            "worldScale": {
+                "x": 1.000000238418579,
+                "y": 1.0,
+                "z": 1.000000238418579
+            }
+        },
+        {
+            "name": "ChestBonuses_6",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_1_00.prefab",
+            "position": {
+                "x": 43.380001068115237,
+                "y": 0.0,
+                "z": 6.619999885559082
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.380001068115237,
+                "y": 0.0,
+                "z": 6.619999885559082
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.380001068115237,
+                "y": 0.0,
+                "z": 6.619999885559082
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_2_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 41.915279388427737,
+                "y": 0.0,
+                "z": 10.262779235839844
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.915279388427737,
+                "y": 0.0,
+                "z": 10.262779235839844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.915279388427737,
+                "y": 0.0,
+                "z": 10.262779235839844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.915279388427737,
+                "y": 0.0,
+                "z": 10.262779235839844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.89527893066406,
+                "y": 0.15011100471019746,
+                "z": 10.262779235839844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Chest_TokenCrystal_3_03",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 43.60000228881836,
+                "y": 0.0,
+                "z": 14.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60000228881836,
+                "y": 0.0,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "sort",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60000228881836,
+                "y": 0.0,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Functional_Chest_TokenCrystal_3_back",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 0.005999565124511719,
+                "y": 0.01899999938905239,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60600280761719,
+                "y": 0.021939300000667573,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Functional_Chest_TokenCrystal_3_back_glare",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 0.00800000037997961,
+                "y": 0.26600000262260439,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.608001708984378,
+                "y": 0.3071502149105072,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "FX_Spark",
+            "prefabPath": "Assets/Data/Objects/VFX/For objects/FX_Spark.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2639999985694885,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60000228881836,
+                "y": 0.3048408031463623,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Functional_Chest_TokenCrystal_3_front",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.2879999876022339,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60000228881836,
+                "y": 0.33255359530448916,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Functional_Chest_TokenCrystal_3_front_glare",
+            "prefabPath": "Assets/Data/Objects/Chests/TokenCrystalChests/Chest_TokenCrystal_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": -0.035999998450279239,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.60000228881836,
+                "y": -0.04156919941306114,
+                "z": 14.199999809265137
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 29.415634155273439,
+                "y": 0.0,
+                "z": -6.788223743438721
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 32.767459869384769,
+                "y": 0.0,
+                "z": 5.0290141105651859
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 29.981319427490236,
+                "y": 0.0,
+                "z": -6.222537994384766
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 33.33314514160156,
+                "y": 0.0,
+                "z": 5.594699859619141
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 30.54700469970703,
+                "y": 0.0,
+                "z": -5.656852722167969
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 33.89883041381836,
+                "y": 0.0,
+                "z": 6.1603851318359379
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 31.112689971923829,
+                "y": 0.0,
+                "z": -5.091167449951172
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 34.464515686035159,
+                "y": 0.0,
+                "z": 6.726070404052734
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 31.678375244140626,
+                "y": 0.0,
+                "z": -4.525482177734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 35.03020095825195,
+                "y": 0.0,
+                "z": 7.291755676269531
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 32.24406051635742,
+                "y": 0.0,
+                "z": -3.959796905517578
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 35.59588623046875,
+                "y": 0.0,
+                "z": 7.857440948486328
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 32.80974578857422,
+                "y": 0.0,
+                "z": -3.394111394882202
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 36.16157150268555,
+                "y": 0.0,
+                "z": 8.423126220703125
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 33.375431060791019,
+                "y": 0.0,
+                "z": -2.828425884246826
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 36.727256774902347,
+                "y": 0.0,
+                "z": 8.988811492919922
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 33.94111633300781,
+                "y": 0.0,
+                "z": -2.26274037361145
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 37.29294204711914,
+                "y": 0.0,
+                "z": 9.554497718811036
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 33.375431060791019,
+                "y": 0.0,
+                "z": -3.959796905517578
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 36.727256774902347,
+                "y": 0.0,
+                "z": 7.857440948486328
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 33.94111633300781,
+                "y": 0.0,
+                "z": -4.525482177734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 37.29294204711914,
+                "y": 0.0,
+                "z": 7.291755676269531
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 34.50680160522461,
+                "y": 0.0,
+                "z": -5.091167449951172
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 37.85862731933594,
+                "y": 0.0,
+                "z": 6.726070404052734
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 35.072486877441409,
+                "y": 0.0,
+                "z": -5.656852722167969
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 38.424312591552737,
+                "y": 0.0,
+                "z": 6.1603851318359379
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 35.6381721496582,
+                "y": 0.0,
+                "z": -6.222537994384766
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 38.98999786376953,
+                "y": 0.0,
+                "z": 5.594699859619141
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 36.203857421875,
+                "y": 0.0,
+                "z": -6.7882232666015629
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 39.55568313598633,
+                "y": 0.0,
+                "z": 5.029014587402344
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 36.7695426940918,
+                "y": 0.0,
+                "z": -7.353908538818359
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.121368408203128,
+                "y": 0.0,
+                "z": 4.463329315185547
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 37.335227966308597,
+                "y": 0.0,
+                "z": -7.919593811035156
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.68705368041992,
+                "y": 0.0,
+                "z": 3.89764404296875
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 37.90091323852539,
+                "y": 0.0,
+                "z": -8.485279083251954
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.25273895263672,
+                "y": 0.0,
+                "z": 3.331958770751953
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 38.46659851074219,
+                "y": 0.0,
+                "z": -9.05096435546875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.818424224853519,
+                "y": 0.0,
+                "z": 2.7662734985351564
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 39.032283782958987,
+                "y": 0.0,
+                "z": -9.616649627685547
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.38410949707031,
+                "y": 0.0,
+                "z": 2.2005882263183595
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 39.59796905517578,
+                "y": 0.0,
+                "z": -10.182334899902344
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.94979476928711,
+                "y": 0.0,
+                "z": 1.6349029541015626
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 40.16365432739258,
+                "y": 0.0,
+                "z": -10.74802017211914
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.515480041503909,
+                "y": 0.0,
+                "z": 1.0692176818847657
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 40.729339599609378,
+                "y": 0.0,
+                "z": -11.313705444335938
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.0811653137207,
+                "y": 0.0,
+                "z": 0.5035324096679688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 41.29502487182617,
+                "y": 0.0,
+                "z": -11.879390716552735
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.6468505859375,
+                "y": 0.0,
+                "z": -0.062152862548828128
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 41.86071014404297,
+                "y": 0.0,
+                "z": -12.445075988769532
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.2125358581543,
+                "y": 0.0,
+                "z": -0.627838134765625
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 36.203857421875,
+                "y": 0.0,
+                "z": 0.0000015497207641601563
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 39.55568313598633,
+                "y": 0.0,
+                "z": 11.817239761352539
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 36.7695426940918,
+                "y": 0.0,
+                "z": 0.5656870007514954
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.121368408203128,
+                "y": 0.0,
+                "z": 12.382925033569336
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 37.335227966308597,
+                "y": 0.0,
+                "z": 1.1313724517822266
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 40.68705368041992,
+                "y": 0.0,
+                "z": 12.948610305786133
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 37.90091323852539,
+                "y": 0.0,
+                "z": 1.6970579624176026
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.25273895263672,
+                "y": 0.0,
+                "z": 13.51429557800293
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 38.46659851074219,
+                "y": 0.0,
+                "z": 2.2627434730529787
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.818424224853519,
+                "y": 0.0,
+                "z": 14.079980850219727
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 39.032283782958987,
+                "y": 0.0,
+                "z": 2.8284289836883547
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.38410949707031,
+                "y": 0.0,
+                "z": 14.64566707611084
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 39.59796905517578,
+                "y": 0.0,
+                "z": 3.3941144943237306
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.94979476928711,
+                "y": 0.0,
+                "z": 15.211352348327637
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Light_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Light_1_6.prefab",
+            "position": {
+                "x": 40.16365432739258,
+                "y": 0.0,
+                "z": 3.9598000049591066
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.515480041503909,
+                "y": 0.0,
+                "z": 15.777037620544434
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 40.729339599609378,
+                "y": 0.0,
+                "z": 4.525485038757324
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.0811653137207,
+                "y": 0.0,
+                "z": 16.342723846435548
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 37.90091323852539,
+                "y": 0.0,
+                "z": 0.5656870603561401
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.25273895263672,
+                "y": 0.0,
+                "z": 12.382925033569336
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 38.46659851074219,
+                "y": 0.0,
+                "z": 0.0000016987323760986329
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.818424224853519,
+                "y": 0.0,
+                "z": 11.817239761352539
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 39.032283782958987,
+                "y": 0.0,
+                "z": -0.5656836628913879
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.38410949707031,
+                "y": 0.0,
+                "z": 11.251554489135743
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 39.59796905517578,
+                "y": 0.0,
+                "z": -1.1313689947128297
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 42.94979476928711,
+                "y": 0.0,
+                "z": 10.685869216918946
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 40.16365432739258,
+                "y": 0.0,
+                "z": -1.697054386138916
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.515480041503909,
+                "y": 0.0,
+                "z": 10.120183944702149
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 40.729339599609378,
+                "y": 0.0,
+                "z": -2.262739896774292
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.0811653137207,
+                "y": 0.0,
+                "z": 9.554497718811036
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 41.29502487182617,
+                "y": 0.0,
+                "z": -2.828425407409668
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.6468505859375,
+                "y": 0.0,
+                "z": 8.988812446594239
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 41.86071014404297,
+                "y": 0.0,
+                "z": -3.394110918045044
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.2125358581543,
+                "y": 0.0,
+                "z": 8.423127174377442
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 42.426395416259769,
+                "y": 0.0,
+                "z": -3.95979642868042
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.778221130371097,
+                "y": 0.0,
+                "z": 7.857441425323486
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 42.99208068847656,
+                "y": 0.0,
+                "z": -4.525481700897217
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.34390640258789,
+                "y": 0.0,
+                "z": 7.2917561531066898
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Corner_1_6.prefab",
+            "position": {
+                "x": 46.386192321777347,
+                "y": 0.0,
+                "z": -7.919593334197998
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 49.73801803588867,
+                "y": 0.0,
+                "z": 3.897644519805908
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 46.95187759399414,
+                "y": 0.0,
+                "z": -8.485279083251954
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 50.30370330810547,
+                "y": 0.0,
+                "z": 3.331958770751953
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 50.34598922729492,
+                "y": 0.0,
+                "z": -5.091167449951172
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 53.69781494140625,
+                "y": 0.0,
+                "z": 6.726070404052734
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Corner_1_6.prefab",
+            "position": {
+                "x": 49.780303955078128,
+                "y": 0.0,
+                "z": -4.525482177734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 53.13212966918945,
+                "y": 0.0,
+                "z": 7.291755676269531
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 49.21461868286133,
+                "y": 0.0,
+                "z": -3.959796905517578
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.566444396972659,
+                "y": 0.0,
+                "z": 7.857440948486328
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 48.64893341064453,
+                "y": 0.0,
+                "z": -3.394111394882202
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 52.00075912475586,
+                "y": 0.0,
+                "z": 8.423126220703125
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Dark_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Dark_1_6.prefab",
+            "position": {
+                "x": 48.083248138427737,
+                "y": 0.0,
+                "z": -2.828425884246826
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 51.43507385253906,
+                "y": 0.0,
+                "z": 8.988811492919922
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 47.51756286621094,
+                "y": 0.0,
+                "z": -2.26274037361145
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 50.869388580322269,
+                "y": 0.0,
+                "z": 9.554497718811036
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Dark_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Dark_1_6.prefab",
+            "position": {
+                "x": 46.95187759399414,
+                "y": 0.0,
+                "z": -1.6970549821853638
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 50.30370330810547,
+                "y": 0.0,
+                "z": 10.120182991027832
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 46.386192321777347,
+                "y": 0.0,
+                "z": -1.1313695907592774
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 49.73801803588867,
+                "y": 0.0,
+                "z": 10.685868263244629
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Dark_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Dark_1_6.prefab",
+            "position": {
+                "x": 45.82050704956055,
+                "y": 0.0,
+                "z": -0.5656841993331909
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 49.172332763671878,
+                "y": 0.0,
+                "z": 11.251553535461426
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Corner_1_6.prefab",
+            "position": {
+                "x": 45.25482177734375,
+                "y": 0.0,
+                "z": 0.0000011771917343139649
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.60664749145508,
+                "y": 0.0,
+                "z": 11.817238807678223
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Dark_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Dark_1_6.prefab",
+            "position": {
+                "x": 44.68913650512695,
+                "y": 0.0,
+                "z": 0.5656865835189819
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.04096221923828,
+                "y": 0.0,
+                "z": 12.38292407989502
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Corner_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Corner_1_6.prefab",
+            "position": {
+                "x": 44.123451232910159,
+                "y": 0.0,
+                "z": 1.1313719749450684
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 47.475276947021487,
+                "y": 0.0,
+                "z": 12.948610305786133
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": -0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Ivy_Dark_1_6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Ivy_Dark_1_6.prefab",
+            "position": {
+                "x": 42.426395416259769,
+                "y": 0.0,
+                "z": -13.010761260986329
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.778221130371097,
+                "y": 0.0,
+                "z": -1.1935234069824219
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "WoodenStoneFence_Dark_1.6",
+            "prefabPath": "Assets/Data/Objects/Expeditions/UnusedPrefabs/DONT_USE_WoodenStoneFence_1_6/DONT_USE_WoodenStoneFence_Dark_1.6.prefab",
+            "position": {
+                "x": 43.55776596069336,
+                "y": 0.0,
+                "z": -5.091166973114014
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 46.90959167480469,
+                "y": 0.0,
+                "z": 6.726070880889893
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.38268348574638369,
+                "z": 0.0,
+                "w": -0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Rock2",
+            "prefabPath": "Assets/Data/Objects/Patches/Forest/Rock2.prefab",
+            "position": {
+                "x": 37.86000061035156,
+                "y": 0.0,
+                "z": 0.44999998807907107
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 37.86000061035156,
+                "y": 0.0,
+                "z": 0.44999998807907107
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Rock3",
+            "prefabPath": "Assets/Data/Objects/Patches/Forest/Rock3.prefab",
+            "position": {
+                "x": 41.15999984741211,
+                "y": 0.0,
+                "z": -0.10000000149011612
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.15999984741211,
+                "y": 0.0,
+                "z": -0.10000000149011612
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547001600265504,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "smal_rock",
+            "prefabPath": "Assets/Data/Objects/Patches/Forest/smal_rock.prefab",
+            "position": {
+                "x": 34.369998931884769,
+                "y": 0.0,
+                "z": 3.5299999713897707
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 34.369998931884769,
+                "y": 0.0,
+                "z": 3.5299999713897707
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Decor_MossyBoulders_Gray_1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Backgrounds/LegacyBiomBackgrounds/Forest/Decor_MossyBoulders_Gray.prefab",
+            "position": {
+                "x": 43.29999923706055,
+                "y": -0.00000762939453125,
+                "z": -1.9299999475479127
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.29999923706055,
+                "y": -0.00000762939453125,
+                "z": -1.9299999475479127
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "MapSelectionArea",
+            "prefabPath": "",
+            "position": {
+                "x": 43.82151794433594,
+                "y": 0.0,
+                "z": 6.496002197265625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 43.82151794433594,
+                "y": 0.0,
+                "z": 6.496002197265625
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ],
+    "terrain": {
+        "views": [
+            {
+                "name": "Terrain",
+                "position": {
+                    "x": -8.0,
+                    "y": 0.0,
+                    "z": -16.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "floorColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 92.34356689453125,
+                    "y": 4.0,
+                    "z": 94.0
+                },
+                "rendererBoundsSize": {
+                    "x": 200.6871337890625,
+                    "y": 8.0,
+                    "z": 220.0
+                }
+            }
+        ],
+        "components": [
+            {
+                "name": "Water",
+                "type": "TerrainWaterSurface",
+                "position": {
+                    "x": -4.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 53.48838806152344,
+                    "y": 0.0,
+                    "z": 24.96127700805664
+                },
+                "rendererBoundsSize": {
+                    "x": 103.1507568359375,
+                    "y": 0.0,
+                    "z": 84.17401885986328
+                }
+            }
+        ]
+    },
+    "clouds": {
+        "transparentAreas": [],
+        "cloudsViews": []
+    }
+}

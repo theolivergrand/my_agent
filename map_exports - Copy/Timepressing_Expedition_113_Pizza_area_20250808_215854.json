@@ -1,0 +1,770 @@
+{
+    "sceneName": "Timepressing_Expedition_113_Pizza",
+    "areaCenter": {
+        "x": 44.83000183105469,
+        "y": 0.0,
+        "z": 105.56999969482422
+    },
+    "areaSize": {
+        "x": 8.485282897949219,
+        "y": 1.0,
+        "z": 8.48529052734375
+    },
+    "screenshotPath": "D:\\adventures-40.0-develop\\map_exports\\Timepressing_Expedition_113_Pizza_area_20250808_215854.png",
+    "comment": "Кэшбек энергии для игрока",
+    "objects": [
+        {
+            "name": "113_Tomatoes_3_00",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_01",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_02",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State3",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_03",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.29999923706055,
+                "y": 8.0,
+                "z": 107.58000183105469
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "113_Tomatoes_3_10",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State1",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_01",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_02",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State3",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TieredObstacle_81_Tomatoes_03",
+            "prefabPath": "Assets/Data/Objects/Expeditions/ExpeditionObstacles/TimepressingExpedition_113_Pizza/113_Tomatoes_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 45.130001068115237,
+                "y": 8.0,
+                "z": 106.8499984741211
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "113_PottedOrangeFlowers",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_113_Pizza/113_PottedOrangeFlowers.prefab",
+            "position": {
+                "x": 41.380001068115237,
+                "y": 8.0,
+                "z": 104.27999877929688
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.85000228881836,
+                "y": 8.0,
+                "z": 103.22000122070313
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "113_PottedOrangeFlowers_2",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_113_Pizza/113_PottedOrangeFlowers.prefab",
+            "position": {
+                "x": 37.54999923706055,
+                "y": 8.0,
+                "z": 107.45999908447266
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 41.02000045776367,
+                "y": 8.0,
+                "z": 106.4000015258789
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "FocusRoom_19",
+            "prefabPath": "Assets/Data/Objects/Mechanics/EmptyFocus.prefab",
+            "position": {
+                "x": 44.83000183105469,
+                "y": 8.0,
+                "z": 105.41999816894531
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 48.30000305175781,
+                "y": 8.0,
+                "z": 104.36000061035156
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "MapSelectionArea",
+            "prefabPath": "",
+            "position": {
+                "x": 44.83000183105469,
+                "y": 0.0,
+                "z": 105.56999969482422
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 44.83000183105469,
+                "y": 0.0,
+                "z": 105.56999969482422
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ],
+    "terrain": {
+        "views": [
+            {
+                "name": "Terrain",
+                "position": {
+                    "x": -32.0,
+                    "y": 0.0,
+                    "z": -8.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "floorColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 65.67216491699219,
+                    "y": 4.0,
+                    "z": 81.65921020507813
+                },
+                "rendererBoundsSize": {
+                    "x": 195.83828735351563,
+                    "y": 16.0,
+                    "z": 180.68157958984376
+                }
+            }
+        ],
+        "components": [
+            {
+                "name": "Cliff",
+                "type": "TerrainPlatform",
+                "position": {
+                    "x": 88.9000015258789,
+                    "y": 4.0,
+                    "z": 100.5
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 86.5875244140625,
+                    "y": 2.0,
+                    "z": 114.30339813232422
+                },
+                "rendererBoundsSize": {
+                    "x": 148.12088012695313,
+                    "y": 4.0,
+                    "z": 102.31182861328125
+                }
+            },
+            {
+                "name": "Cliff",
+                "type": "TerrainPlatform",
+                "position": {
+                    "x": 59.19999694824219,
+                    "y": 8.0,
+                    "z": 134.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 50.20195388793945,
+                    "y": 6.0,
+                    "z": 115.76026916503906
+                },
+                "rendererBoundsSize": {
+                    "x": 71.54087829589844,
+                    "y": 4.0,
+                    "z": 85.81120300292969
+                }
+            }
+        ]
+    },
+    "clouds": {
+        "transparentAreas": [],
+        "cloudsViews": []
+    }
+}

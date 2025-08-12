@@ -1,0 +1,2113 @@
+{
+    "sceneName": "Timepressing_Expedition_113_Pizza",
+    "areaCenter": {
+        "x": 27.420000076293947,
+        "y": 0.0,
+        "z": 27.75
+    },
+    "areaSize": {
+        "x": 7.071067810058594,
+        "y": 1.0,
+        "z": 7.071067810058594
+    },
+    "screenshotPath": "D:\\adventures-40.0-develop\\map_exports\\Timepressing_Expedition_113_Pizza_area_20250808_215707.png",
+    "comment": "Кэшбек энергии для игрока",
+    "objects": [
+        {
+            "name": "113_PottedCocoaTree",
+            "prefabPath": "Assets/Data/Objects/Expeditions/Decor/TimepressingExpedition_113_Pizza/113_PottedCocoaTree.prefab",
+            "position": {
+                "x": 24.690000534057618,
+                "y": 0.0,
+                "z": 30.239999771118165
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.15999984741211,
+                "y": 0.0,
+                "z": 29.18000030517578
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ChestBonuses_1_02",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_1_00.prefab",
+            "position": {
+                "x": -2.700000047683716,
+                "y": 0.0,
+                "z": -19.329999923706056
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.61457061767578,
+                "y": 0.0,
+                "z": 26.10495376586914
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.61457061767578,
+                "y": 0.0,
+                "z": 26.10495376586914
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 22.887998580932618,
+                "y": 0.0,
+                "z": 28.266000747680665
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.35799789428711,
+                "y": 0.0,
+                "z": 27.20600128173828
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.35799789428711,
+                "y": 0.0,
+                "z": 27.20600128173828
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.35799789428711,
+                "y": 0.0,
+                "z": 27.20600128173828
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.337997436523439,
+                "y": 0.15011100471019746,
+                "z": 27.20600128173828
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_04",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 24.079999923706056,
+                "y": 0.0,
+                "z": 27.038999557495118
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.549999237060548,
+                "y": 0.0,
+                "z": 25.979000091552736
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.549999237060548,
+                "y": 0.0,
+                "z": 25.979000091552736
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.549999237060548,
+                "y": 0.0,
+                "z": 25.979000091552736
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.529998779296876,
+                "y": 0.15011100471019746,
+                "z": 25.979000091552736
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_02",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 22.298999786376954,
+                "y": 0.0,
+                "z": 28.880001068115236
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 25.768999099731447,
+                "y": 0.0,
+                "z": 27.82000160217285
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 25.768999099731447,
+                "y": 0.0,
+                "z": 27.82000160217285
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 25.768999099731447,
+                "y": 0.0,
+                "z": 27.82000160217285
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 25.748998641967775,
+                "y": 0.15011100471019746,
+                "z": 27.82000160217285
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_05",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 24.642000198364259,
+                "y": 0.0,
+                "z": 26.44499969482422
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.11199951171875,
+                "y": 0.0,
+                "z": 25.385000228881837
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.11199951171875,
+                "y": 0.0,
+                "z": 25.385000228881837
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.11199951171875,
+                "y": 0.0,
+                "z": 25.385000228881837
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.091999053955079,
+                "y": 0.15011100471019746,
+                "z": 25.385000228881837
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_01",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 23.37599754333496,
+                "y": 0.0,
+                "z": 28.801000595092775
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.845996856689454,
+                "y": 0.0,
+                "z": 27.74100112915039
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.845996856689454,
+                "y": 0.0,
+                "z": 27.74100112915039
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.845996856689454,
+                "y": 0.0,
+                "z": 27.74100112915039
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.82599639892578,
+                "y": 0.15011100471019746,
+                "z": 27.74100112915039
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_06",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 24.5679988861084,
+                "y": 0.0,
+                "z": 27.573999404907228
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.03799819946289,
+                "y": 0.0,
+                "z": 26.513999938964845
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.03799819946289,
+                "y": 0.0,
+                "z": 26.513999938964845
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.03799819946289,
+                "y": 0.0,
+                "z": 26.513999938964845
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.01799774169922,
+                "y": 0.15011100471019746,
+                "z": 26.513999938964845
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_03",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 22.786998748779298,
+                "y": 0.0,
+                "z": 29.415000915527345
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.25699806213379,
+                "y": 0.0,
+                "z": 28.35500144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.25699806213379,
+                "y": 0.0,
+                "z": 28.35500144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.25699806213379,
+                "y": 0.0,
+                "z": 28.35500144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.236997604370118,
+                "y": 0.15011100471019746,
+                "z": 28.35500144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_07",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 25.1299991607666,
+                "y": 0.0,
+                "z": 26.979999542236329
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.599998474121095,
+                "y": 0.0,
+                "z": 25.920000076293947
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.599998474121095,
+                "y": 0.0,
+                "z": 25.920000076293947
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.599998474121095,
+                "y": 0.0,
+                "z": 25.920000076293947
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.579998016357423,
+                "y": 0.15011100471019746,
+                "z": 25.920000076293947
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_2_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 24.770000457763673,
+                "y": 0.0,
+                "z": 28.69999885559082
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.239999771118165,
+                "y": 0.0,
+                "z": 27.639999389648439
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.239999771118165,
+                "y": 0.0,
+                "z": 27.639999389648439
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.239999771118165,
+                "y": 0.0,
+                "z": 27.639999389648439
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.219999313354493,
+                "y": 0.15011100471019746,
+                "z": 27.639999389648439
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_2_01",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 24.149999618530275,
+                "y": 0.0,
+                "z": 29.329998016357423
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.619998931884767,
+                "y": 0.0,
+                "z": 28.26999855041504
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.619998931884767,
+                "y": 0.0,
+                "z": 28.26999855041504
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.619998931884767,
+                "y": 0.0,
+                "z": 28.26999855041504
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.599998474121095,
+                "y": 0.15011100471019746,
+                "z": 28.26999855041504
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_2_02",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 23.56999969482422,
+                "y": 0.0,
+                "z": 29.849998474121095
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.03999900817871,
+                "y": 0.0,
+                "z": 28.78999900817871
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.03999900817871,
+                "y": 0.0,
+                "z": 28.78999900817871
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.03999900817871,
+                "y": 0.0,
+                "z": 28.78999900817871
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.01999855041504,
+                "y": 0.15011100471019746,
+                "z": 28.78999900817871
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_2_03",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 25.3799991607666,
+                "y": 0.0,
+                "z": 28.040000915527345
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.849998474121095,
+                "y": 0.0,
+                "z": 26.98000144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_2_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.849998474121095,
+                "y": 0.0,
+                "z": 26.98000144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.849998474121095,
+                "y": 0.0,
+                "z": 26.98000144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 28.829998016357423,
+                "y": 0.15011100471019746,
+                "z": 26.98000144958496
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_3_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 23.786998748779298,
+                "y": 0.0,
+                "z": 27.905000686645509
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.25699806213379,
+                "y": 0.0,
+                "z": 26.845001220703126
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.25699806213379,
+                "y": 0.0,
+                "z": 26.845001220703126
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.03999999910593033,
+                "y": 0.12200000137090683,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.216997146606447,
+                "y": 0.14087340235710145,
+                "z": 26.845001220703126
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.196998596191408,
+                "y": 0.2909844219684601,
+                "z": 26.845001220703126
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ExchangeCollectionsChest_02_00",
+            "prefabPath": "Assets/Data/Objects/Chests/ExchangeCollectionsChests/ExchangeCollectionsChest_02_00.prefab",
+            "position": {
+                "x": 22.642549514770509,
+                "y": 0.0,
+                "z": 30.6779727935791
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 26.112548828125,
+                "y": 0.0,
+                "z": 29.61797332763672
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "MapSelectionArea",
+            "prefabPath": "",
+            "position": {
+                "x": 27.420000076293947,
+                "y": 0.0,
+                "z": 27.75
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 27.420000076293947,
+                "y": 0.0,
+                "z": 27.75
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ],
+    "terrain": {
+        "views": [
+            {
+                "name": "Terrain",
+                "position": {
+                    "x": -32.0,
+                    "y": 0.0,
+                    "z": -8.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "floorColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 65.67216491699219,
+                    "y": 4.0,
+                    "z": 81.65921020507813
+                },
+                "rendererBoundsSize": {
+                    "x": 195.83828735351563,
+                    "y": 16.0,
+                    "z": 180.68157958984376
+                }
+            }
+        ],
+        "components": []
+    },
+    "clouds": {
+        "transparentAreas": [],
+        "cloudsViews": []
+    }
+}

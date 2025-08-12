@@ -1,0 +1,855 @@
+{
+    "sceneName": "Timepressing_Expedition_113_Pizza",
+    "areaCenter": {
+        "x": 5.899999618530273,
+        "y": 0.0,
+        "z": 106.62999725341797
+    },
+    "areaSize": {
+        "x": 7.0710673332214359,
+        "y": 1.0,
+        "z": 7.071075439453125
+    },
+    "screenshotPath": "D:\\adventures-40.0-develop\\map_exports\\Timepressing_Expedition_113_Pizza_area_20250808_215811.png",
+    "comment": "Кэшбек энергии для игрока",
+    "objects": [
+        {
+            "name": "Lilac",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Lilac.prefab",
+            "position": {
+                "x": 5.039999961853027,
+                "y": 0.0,
+                "z": 109.77999877929688
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.039999961853027,
+                "y": 0.0,
+                "z": 109.77999877929688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "State 1",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Lilac.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.039999961853027,
+                "y": 0.0,
+                "z": 109.77999877929688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_CrystalsBlue_01",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Lilac.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.039999961853027,
+                "y": 0.0,
+                "z": 109.77999877929688
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "Obstacle_Clover",
+            "prefabPath": "Assets/Data/Objects/Obstacles/Forest/Obstacle_Clover.prefab",
+            "position": {
+                "x": 4.630054473876953,
+                "y": 0.0,
+                "z": 108.80845642089844
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 4.630054473876953,
+                "y": 0.0,
+                "z": 108.80845642089844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "ChestBonuses_3_06",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_3_00.prefab",
+            "position": {
+                "x": 1.7599999904632569,
+                "y": 0.0,
+                "z": 107.33000183105469
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.230000019073486,
+                "y": 0.0,
+                "z": 106.27000427246094
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/ChestBonuses/ChestBonuses_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.230000019073486,
+                "y": 0.0,
+                "z": 106.27000427246094
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_3_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 2.563028573989868,
+                "y": 0.0,
+                "z": 108.0008544921875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.033028602600098,
+                "y": 0.0,
+                "z": 106.94085693359375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.033028602600098,
+                "y": 0.0,
+                "z": 106.94085693359375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.03999999910593033,
+                "y": 0.12200000137090683,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.99302864074707,
+                "y": 0.14087340235710145,
+                "z": 106.94085693359375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.973028659820557,
+                "y": 0.2909844219684601,
+                "z": 106.94085693359375
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_3_59",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 3.259999990463257,
+                "y": 0.0,
+                "z": 107.2699966430664
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.730000019073486,
+                "y": 0.0,
+                "z": 106.20999908447266
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_3_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.730000019073486,
+                "y": 0.0,
+                "z": 106.20999908447266
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.03999999910593033,
+                "y": 0.12200000137090683,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.690000057220459,
+                "y": 0.14087340235710145,
+                "z": 106.20999908447266
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.670000076293945,
+                "y": 0.2909844219684601,
+                "z": 106.20999908447266
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "CashbackChest_1_00",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 2.7200000286102297,
+                "y": 0.0,
+                "z": 106.68000030517578
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.190000057220459,
+                "y": 0.0,
+                "z": 105.62000274658203
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "chest",
+            "prefabPath": "Assets/Data/Objects/Chests/CashbackChests/CashbackChest_1_00.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.190000057220459,
+                "y": 0.0,
+                "z": 105.62000274658203
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_OpenChest_Simple_base",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.190000057220459,
+                "y": 0.0,
+                "z": 105.62000274658203
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "fx_rays",
+            "prefabPath": "Assets/Data/FX/ChestOpening/FX_Chest_anim/prefabs/fx_OpenChest_Simple_base.prefab",
+            "position": {
+                "x": -0.019999999552965165,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 6.170000076293945,
+                "y": 0.15011100471019746,
+                "z": 105.62000274658203
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.1547000408172608,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "TransparentClouds_16",
+            "prefabPath": "Assets/Data/Objects/Mechanics/EmptyFocus.prefab",
+            "position": {
+                "x": 4.28000020980835,
+                "y": 0.5,
+                "z": 106.19999694824219
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 7.75,
+                "y": 0.5,
+                "z": 105.13999938964844
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "name": "MapSelectionArea",
+            "prefabPath": "",
+            "position": {
+                "x": 5.900000095367432,
+                "y": 0.0,
+                "z": 106.62999725341797
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "worldPosition": {
+                "x": 5.900000095367432,
+                "y": 0.0,
+                "z": 106.62999725341797
+            },
+            "worldRotation": {
+                "x": 0.0,
+                "y": 0.3826834559440613,
+                "z": 0.0,
+                "w": 0.9238795042037964
+            },
+            "worldScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ],
+    "terrain": {
+        "views": [
+            {
+                "name": "Terrain",
+                "position": {
+                    "x": -32.0,
+                    "y": 0.0,
+                    "z": -8.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "floorColor": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": 65.67216491699219,
+                    "y": 4.0,
+                    "z": 81.65921020507813
+                },
+                "rendererBoundsSize": {
+                    "x": 195.83828735351563,
+                    "y": 16.0,
+                    "z": 180.68157958984376
+                }
+            }
+        ],
+        "components": [
+            {
+                "name": "Cliff",
+                "type": "TerrainPlatform",
+                "position": {
+                    "x": -23.299999237060548,
+                    "y": 4.0,
+                    "z": 161.10000610351563
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "rendererBoundsCenter": {
+                    "x": -5.322914123535156,
+                    "y": 2.0,
+                    "z": 103.24317932128906
+                },
+                "rendererBoundsSize": {
+                    "x": 53.848121643066409,
+                    "y": 4.0,
+                    "z": 130.71995544433595
+                }
+            }
+        ]
+    },
+    "clouds": {
+        "transparentAreas": [
+            {
+                "name": "TransparentClouds_16",
+                "localArea": true,
+                "border": [
+                    {
+                        "x": 1.7319183349609376,
+                        "y": 8.232975006103516
+                    },
+                    {
+                        "x": -2.2454071044921877,
+                        "y": 12.855358123779297
+                    },
+                    {
+                        "x": -8.848564147949219,
+                        "y": 6.362185955047607
+                    },
+                    {
+                        "x": -3.597412109375,
+                        "y": 1.2077819108963013
+                    },
+                    {
+                        "x": 1.6630353927612305,
+                        "y": 0.986445426940918
+                    }
+                ],
+                "position": {
+                    "x": 7.75,
+                    "y": 0.5,
+                    "z": 105.13999938964844
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            }
+        ],
+        "cloudsViews": []
+    }
+}
